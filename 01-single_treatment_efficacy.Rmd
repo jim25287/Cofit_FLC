@@ -24,7 +24,6 @@ gvisMerge(pie_flc_03, pie_flc_04, horizontal = TRUE,
 
 
 ## 相關分析(Correlation Analysis) {#cor_ob}
-### 特定變數 {#cor_ob_var_specific .unnumbered}
 
 **飲食紀錄(diet) x 成效**
 

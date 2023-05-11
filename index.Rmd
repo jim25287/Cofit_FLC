@@ -77,7 +77,7 @@ cofit_client_monthly_stat_report %>% plot()
 
 **Cofit減重策略優勢比較**
 
-相較於其他減重方法學，採用Cofit數位體重管理方案成效顯著勝出；且與飲食黏著度成正相關。
+相較於其他減重方法學，採用Cofit數位體重管理方案成效顯著勝出；且與飲食紀律黏著度成正相關。
 
 ```{r}
 plot_flc_ctrl_comparison
@@ -86,7 +86,7 @@ plot_flc_ctrl_comparison
 
 **Cofit 飲食策略**
 
-![](https://raw.githubusercontent.com/jim25287/Cofit_FLC/main/image/Diet_strategy.png){width="60%"}
+![](https://raw.githubusercontent.com/jim25287/Cofit_FLC/main/image/Diet_strategy.png){width="80%"}
 
 <!-- Introduction context...(editing) -->
 
