@@ -1,0 +1,69 @@
+# 減重成效 - (單次療程)
+
+本節主要分析與探討「Cofit首次減重方案：在初始狀態(baseline)和飲食紀律(diet discipline)下的成效」。
+
+同時，此次分析將聚焦「初始狀態」、「飲食紀律」對於減重成效的影響，作為未來幫助客戶達到最佳成效的依據與利器。
+
+
+## 客戶輪廓分析 {#profile_ob}
+
+**Subjects Distribution:** 年齡(Age) & 性別(Gender)分佈
+
+```{r, results='asis'}
+gvisMerge(pie_flc_01, pie_flc_02, horizontal = TRUE,
+          tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
+```
+
+**Subjects Distribution:** 身體質量指數(BMI)分佈
+
+```{r, results='asis'}
+gvisMerge(pie_flc_03, pie_flc_04, horizontal = TRUE,
+          tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
+
+```
+
+
+## 相關分析(Correlation Analysis) {#cor_ob}
+### 特定變數 {#cor_ob_var_specific .unnumbered}
+
+**飲食紀錄(diet) x 成效**
+
+減重表現與「飲食紀律」呈現顯著正相關。(飲食紀錄完成度、綠燈率、三大營養素攝取比例、六大類食物攝取量等)。
+
+-   **「飲食紀錄完成度」與飲食紀律有關**：
+
+    -   「飲食紀錄完成度」與「綠燈率」、「平均攝取熱量」、「蛋白質、脂肪攝取率」、「蔬菜、蛋豆魚肉、油脂攝取量」呈現正相關。
+
+    -   與「黃、紅燈率」、「碳水化合物攝取率」呈負相關。
+
+    -   六大類食物攝取量：
+
+        -   「蔬菜」、「蛋豆魚肉」、「油脂」與減重成效呈現正相關；且這三類食物彼此呈現正相關。
+
+        -   「水果」、「五穀雜糧」與減重成效成負相關。
+
+```{r, results='asis', fig.width = 8, fig.height= 8.5, warning=FALSE}
+corrplot(M1_flc,
+         p.mat = M_test1_flc$p,
+         type = "lower",
+         insig = "label_sig",
+         sig.level = c(.001, .01, .05), pch.cex = .8, pch.col = "black",
+         tl.col = "black", tl.srt = 35, tl.cex = 1.0,
+         cl.ratio = 0.1,
+         col = M_col_flc(200),
+         title = "[Correlation] Efficacy x Diet",
+         #c(bottom, left, top, right)
+         mar = c(0,0,1,0))
+         
+
+```
+
+```{r, results='asis', warning=FALSE}
+knitr::kable(
+  cor_table_flc_01 %>% plot(), caption = 'Correlation: Diet and Effectiveness',
+  booktabs = TRUE
+)
+
+```
+
+

@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="3.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)" />
+<meta property="og:type" content="book" />
+
+
+
+
+<meta name="author" content="By BigData Team" />
+
+
+
+<meta name="description" content="3.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)">
+
+<title>3.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)</title>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/toc.css" type="text/css" />
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#index">Highlight</a></li>
+<li><a href="1-cofit減重策略優勢比較.html#cofit減重策略優勢比較"><span class="toc-section-number">1</span> Cofit減重策略優勢比較</a></li>
+<li><a href="2-cofit-飲食策略.html#cofit-飲食策略"><span class="toc-section-number">2</span> Cofit 飲食策略</a></li>
+<li class="has-sub"><a href="3-減重成效---單次療程.html#減重成效---單次療程"><span class="toc-section-number">3</span> 減重成效 - (單次療程)</a>
+<ul>
+<li><a href="3.1-profile_ob.html#profile_ob"><span class="toc-section-number">3.1</span> 客戶輪廓分析</a></li>
+<li class="has-sub"><a href="3.2-cor_ob.html#cor_ob"><span class="toc-section-number">3.2</span> 相關分析(Correlation Analysis)</a>
+<ul>
+<li><a href="3.2-cor_ob.html#cor_ob_var_specific">特定變數</a></li>
+</ul></li>
+<li class="has-sub"><a href="3.3-strat_1_ob.html#strat_1_ob"><span class="toc-section-number">3.3</span> 分層分析-1: 減重成效</a>
+<ul>
+<li><a href="3.3-strat_1_ob.html#baseline_ob">初始狀態(Baseline)</a></li>
+<li><a href="3.3-strat_1_ob.html#endpoint_ob">介入後狀態(Endpoint)</a></li>
+<li><a href="3.3-strat_1_ob.html#diet_ob">飲食(Diet)</a></li>
+<li><a href="3.3-strat_1_ob.html#delta_ob">∆成效(Effectiveness)</a></li>
+<li><a href="3.3-strat_1_ob.html#delta_p_ob">∆成效(%)(Effectiveness)</a></li>
+<li><a href="3.3-strat_1_ob.html#Summary_ob">Summary</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="cor_ob" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> 相關分析(Correlation Analysis)</h2>
+<div id="cor_ob_var_specific" class="section level3 unnumbered">
+<h3>特定變數</h3>
+<p><strong>飲食紀錄(diet) x 成效</strong></p>
+<p>減重表現與「飲食紀律」呈現顯著正相關。(飲食紀錄完成度、綠燈率、三大營養素攝取比例、六大類食物攝取量等)。</p>
+<ul>
+<li><p><strong>「飲食紀錄完成度」與飲食紀律有關</strong>：</p>
+<ul>
+<li><p>「飲食紀錄完成度」與「綠燈率」、「平均攝取熱量」、「蛋白質、脂肪攝取率」、「蔬菜、蛋豆魚肉、油脂攝取量」呈現正相關。</p></li>
+<li><p>與「黃、紅燈率」、「碳水化合物攝取率」呈負相關。</p></li>
+<li><p>六大類食物攝取量：</p>
+<ul>
+<li><p>「蔬菜」、「蛋豆魚肉」、「油脂」與減重成效呈現正相關；且這三類食物彼此呈現正相關。</p></li>
+<li><p>「水果」、「五穀雜糧」與減重成效成負相關。</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-5-1.png" width="768" style="display: block; margin: auto;" /></p>
+<!-- Table generated in R 4.2.1 by googleVis 0.7.0 package -->
+<!-- Thu May 11 09:49:11 2023 -->
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataTableID1427560f35a5d () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+1,
+"∆體重",
+"1 (***)",
+"0.73 (***)",
+"0.99 (***)",
+"0.95 (***)",
+"0.38 (***)",
+"0.26 (***)",
+"0.2 (***)",
+"0.09 (*)",
+"0.02 (*)",
+"0.3 (***)",
+"0.1 (***)",
+"0.27 (***)",
+"0.05 (***)",
+"0.26 (***)",
+"0.08 (***)",
+"0.22 (***)",
+"0.12 (***)",
+"0.38 (***)",
+"0.23 (***)",
+"0.14 (***)",
+"-0.24 (***)",
+"0.25 (***)",
+"0.21 (***)",
+"0.24 (***)",
+"-0.23 (***)",
+"-0.13 (***)"
+],
+[
+2,
+"∆體重(%)",
+"0.73 (***)",
+"1 (***)",
+"0.73 (***)",
+"0.74 (***)",
+"0.29 (***)",
+"0.21 (***)",
+"0.22 (***)",
+"0.09 (*)",
+"0.03 (**)",
+"0.08 (***)",
+"-0.08 (***)",
+"0.08 (***)",
+"-0.09 (***)",
+"0.11 (***)",
+"-0.04 (***)",
+"0.12 (***)",
+"0.01 (ns)",
+"0.46 (***)",
+"0.27 (***)",
+"0.15 (***)",
+"-0.27 (***)",
+"0.26 (***)",
+"0.24 (***)",
+"0.27 (***)",
+"-0.26 (***)",
+"-0.15 (***)"
+],
+[
+3,
+"△BMI",
+"0.99 (***)",
+"0.73 (***)",
+"1 (***)",
+"0.96 (***)",
+"0.38 (***)",
+"0.26 (***)",
+"0.2 (***)",
+"0.09 (**)",
+"0.02 (*)",
+"0.26 (***)",
+"0.06 (***)",
+"0.28 (***)",
+"0.06 (***)",
+"0.25 (***)",
+"0.07 (***)",
+"0.21 (***)",
+"0.11 (***)",
+"0.38 (***)",
+"0.23 (***)",
+"0.14 (***)",
+"-0.24 (***)",
+"0.25 (***)",
+"0.21 (***)",
+"0.24 (***)",
+"-0.23 (***)",
+"-0.13 (***)"
+],
+[
+4,
+"△BMI(％)",
+"0.95 (***)",
+"0.74 (***)",
+"0.96 (***)",
+"1 (***)",
+"0.36 (***)",
+"0.27 (***)",
+"0.26 (***)",
+"0.12 (***)",
+"0.03 (**)",
+"0.14 (***)",
+"-0.07 (***)",
+"0.14 (***)",
+"-0.08 (***)",
+"0.15 (***)",
+"-0.04 (***)",
+"0.15 (***)",
+"0.01 (ns)",
+"0.4 (***)",
+"0.23 (***)",
+"0.14 (***)",
+"-0.24 (***)",
+"0.23 (***)",
+"0.2 (***)",
+"0.24 (***)",
+"-0.23 (***)",
+"-0.13 (***)"
+],
+[
+5,
+"△體脂(kg)",
+"0.38 (***)",
+"0.29 (***)",
+"0.38 (***)",
+"0.36 (***)",
+"1 (***)",
+"0.67 (***)",
+"0.22 (***)",
+"0.1 (**)",
+"-0.02 (ns)",
+"0.2 (***)",
+"0.11 (***)",
+"0.17 (***)",
+"0.09 (***)",
+"0.39 (***)",
+"-0.17 (***)",
+"0.22 (***)",
+"0.14 (***)",
+"0.16 (***)",
+"0.09 (***)",
+"0.06 (***)",
+"-0.09 (***)",
+"0.1 (***)",
+"0.08 (***)",
+"0.04 (**)",
+"-0.07 (***)",
+"0.03 (.)"
+],
+[
+6,
+"△體脂(％)",
+"0.26 (***)",
+"0.21 (***)",
+"0.26 (***)",
+"0.27 (***)",
+"0.67 (***)",
+"1 (***)",
+"0.15 (***)",
+"0.08 (*)",
+"0.01 (ns)",
+"0.06 (***)",
+"0 (ns)",
+"0.05 (***)",
+"-0.01 (ns)",
+"0.12 (***)",
+"-0.23 (***)",
+"0.09 (**)",
+"0.01 (ns)",
+"0.1 (***)",
+"0.05 (**)",
+"0.02 (ns)",
+"-0.06 (***)",
+"0.06 (***)",
+"0.05 (**)",
+"0.03 (.)",
+"-0.04 (**)",
+"0.01 (ns)"
+],
+[
+7,
+"∆腰圍",
+"0.2 (***)",
+"0.22 (***)",
+"0.2 (***)",
+"0.26 (***)",
+"0.22 (***)",
+"0.15 (***)",
+"1 (***)",
+"0.92 (***)",
+"-0.03 (ns)",
+"0.1 (**)",
+"0.04 (ns)",
+"0.09 (*)",
+"0.03 (ns)",
+"0.11 (**)",
+"0 (ns)",
+"0.47 (***)",
+"-0.1 (**)",
+"0.1 (**)",
+"0.02 (ns)",
+"-0.01 (ns)",
+"-0.09 (*)",
+"0.11 (**)",
+"0.07 (.)",
+"0.02 (ns)",
+"-0.02 (ns)",
+"-0.02 (ns)"
+],
+[
+8,
+"∆腰圍(%)",
+"0.09 (*)",
+"0.09 (*)",
+"0.09 (**)",
+"0.12 (***)",
+"0.1 (**)",
+"0.08 (*)",
+"0.92 (***)",
+"1 (***)",
+"-0.01 (ns)",
+"0.05 (ns)",
+"0.03 (ns)",
+"0.04 (ns)",
+"0.01 (ns)",
+"0.05 (ns)",
+"0 (ns)",
+"0.47 (***)",
+"-0.06 (ns)",
+"0.03 (ns)",
+"-0.02 (ns)",
+"-0.01 (ns)",
+"-0.06 (ns)",
+"0.07 (.)",
+"0.04 (ns)",
+"-0.01 (ns)",
+"0.01 (ns)",
+"0.01 (ns)"
+],
+[
+9,
+"年齡",
+"0.02 (*)",
+"0.03 (**)",
+"0.02 (*)",
+"0.03 (**)",
+"-0.02 (ns)",
+"0.01 (ns)",
+"-0.03 (ns)",
+"-0.01 (ns)",
+"1 (***)",
+"-0.03 (**)",
+"-0.04 (***)",
+"-0.02 (ns)",
+"-0.02 (*)",
+"-0.05 (**)",
+"-0.01 (ns)",
+"-0.03 (ns)",
+"0.01 (ns)",
+"0.01 (ns)",
+"0.01 (ns)",
+"-0.11 (***)",
+"-0.16 (***)",
+"0.1 (***)",
+"0.17 (***)",
+"0.05 (***)",
+"-0.04 (***)",
+"-0.04 (***)"
+],
+[
+10,
+"體重(前)",
+"0.3 (***)",
+"0.08 (***)",
+"0.26 (***)",
+"0.14 (***)",
+"0.2 (***)",
+"0.06 (***)",
+"0.1 (**)",
+"0.05 (ns)",
+"-0.03 (**)",
+"1 (***)",
+"0.98 (***)",
+"0.81 (***)",
+"0.78 (***)",
+"0.79 (***)",
+"0.7 (***)",
+"0.68 (***)",
+"0.63 (***)",
+"-0.04 (***)",
+"-0.04 (***)",
+"0.08 (***)",
+"-0.07 (***)",
+"0.09 (***)",
+"0.05 (***)",
+"-0.03 (**)",
+"0.03 (**)",
+"0.02 (*)"
+],
+[
+11,
+"體重(後)",
+"0.1 (***)",
+"-0.08 (***)",
+"0.06 (***)",
+"-0.07 (***)",
+"0.11 (***)",
+"0 (ns)",
+"0.04 (ns)",
+"0.03 (ns)",
+"-0.04 (***)",
+"0.98 (***)",
+"1 (***)",
+"0.78 (***)",
+"0.8 (***)",
+"0.77 (***)",
+"0.72 (***)",
+"0.66 (***)",
+"0.64 (***)",
+"-0.13 (***)",
+"-0.09 (***)",
+"0.05 (***)",
+"-0.02 (ns)",
+"0.03 (***)",
+"0.01 (ns)",
+"-0.09 (***)",
+"0.08 (***)",
+"0.05 (***)"
+],
+[
+12,
+"BMI(前)",
+"0.27 (***)",
+"0.08 (***)",
+"0.28 (***)",
+"0.14 (***)",
+"0.17 (***)",
+"0.05 (***)",
+"0.09 (*)",
+"0.04 (ns)",
+"-0.02 (ns)",
+"0.81 (***)",
+"0.78 (***)",
+"1 (***)",
+"0.98 (***)",
+"0.73 (***)",
+"0.66 (***)",
+"0.66 (***)",
+"0.62 (***)",
+"-0.02 (*)",
+"-0.03 (**)",
+"0.03 (**)",
+"-0.07 (***)",
+"0.08 (***)",
+"0.05 (***)",
+"-0.01 (ns)",
+"0.01 (ns)",
+"0 (ns)"
+],
+[
+13,
+"BMI(後)",
+"0.05 (***)",
+"-0.09 (***)",
+"0.06 (***)",
+"-0.08 (***)",
+"0.09 (***)",
+"-0.01 (ns)",
+"0.03 (ns)",
+"0.01 (ns)",
+"-0.02 (*)",
+"0.78 (***)",
+"0.8 (***)",
+"0.98 (***)",
+"1 (***)",
+"0.7 (***)",
+"0.68 (***)",
+"0.64 (***)",
+"0.63 (***)",
+"-0.11 (***)",
+"-0.09 (***)",
+"0 (ns)",
+"-0.01 (ns)",
+"0.02 (*)",
+"0.01 (ns)",
+"-0.07 (***)",
+"0.07 (***)",
+"0.03 (**)"
+],
+[
+14,
+"體脂(前)",
+"0.26 (***)",
+"0.11 (***)",
+"0.25 (***)",
+"0.15 (***)",
+"0.39 (***)",
+"0.12 (***)",
+"0.11 (**)",
+"0.05 (ns)",
+"-0.05 (**)",
+"0.79 (***)",
+"0.77 (***)",
+"0.73 (***)",
+"0.7 (***)",
+"1 (***)",
+"0.84 (***)",
+"0.62 (***)",
+"0.61 (***)",
+"0 (ns)",
+"-0.03 (*)",
+"0 (ns)",
+"-0.11 (***)",
+"0.11 (***)",
+"0.09 (***)",
+"-0.03 (ns)",
+"0.02 (ns)",
+"0.03 (.)"
+],
+[
+15,
+"體脂(後)",
+"0.08 (***)",
+"-0.04 (***)",
+"0.07 (***)",
+"-0.04 (***)",
+"-0.17 (***)",
+"-0.23 (***)",
+"0 (ns)",
+"0 (ns)",
+"-0.01 (ns)",
+"0.7 (***)",
+"0.72 (***)",
+"0.66 (***)",
+"0.68 (***)",
+"0.84 (***)",
+"1 (***)",
+"0.55 (***)",
+"0.6 (***)",
+"-0.06 (***)",
+"-0.07 (***)",
+"0 (ns)",
+"-0.1 (***)",
+"0.1 (***)",
+"0.09 (***)",
+"-0.03 (**)",
+"0.02 (*)",
+"0.03 (**)"
+],
+[
+16,
+"腰圍(前)",
+"0.22 (***)",
+"0.12 (***)",
+"0.21 (***)",
+"0.15 (***)",
+"0.22 (***)",
+"0.09 (**)",
+"0.47 (***)",
+"0.47 (***)",
+"-0.03 (ns)",
+"0.68 (***)",
+"0.66 (***)",
+"0.66 (***)",
+"0.64 (***)",
+"0.62 (***)",
+"0.55 (***)",
+"1 (***)",
+"0.83 (***)",
+"0 (ns)",
+"-0.02 (ns)",
+"0.02 (ns)",
+"-0.04 (ns)",
+"0.04 (ns)",
+"0.03 (ns)",
+"-0.03 (ns)",
+"0.03 (ns)",
+"0.04 (ns)"
+],
+[
+17,
+"腰圍(後)",
+"0.12 (***)",
+"0.01 (ns)",
+"0.11 (***)",
+"0.01 (ns)",
+"0.14 (***)",
+"0.01 (ns)",
+"-0.1 (**)",
+"-0.06 (ns)",
+"0.01 (ns)",
+"0.63 (***)",
+"0.64 (***)",
+"0.62 (***)",
+"0.63 (***)",
+"0.61 (***)",
+"0.6 (***)",
+"0.83 (***)",
+"1 (***)",
+"-0.07 (***)",
+"-0.02 (ns)",
+"0.05 (**)",
+"-0.04 (*)",
+"0.04 (*)",
+"0.04 (*)",
+"-0.08 (***)",
+"0.06 (***)",
+"0.08 (***)"
+],
+[
+18,
+"飲食紀錄完成率(%)",
+"0.38 (***)",
+"0.46 (***)",
+"0.38 (***)",
+"0.4 (***)",
+"0.16 (***)",
+"0.1 (***)",
+"0.1 (**)",
+"0.03 (ns)",
+"0.01 (ns)",
+"-0.04 (***)",
+"-0.13 (***)",
+"-0.02 (*)",
+"-0.11 (***)",
+"0 (ns)",
+"-0.06 (***)",
+"0 (ns)",
+"-0.07 (***)",
+"1 (***)",
+"0.51 (***)",
+"0.28 (***)",
+"-0.14 (***)",
+"0.15 (***)",
+"0.11 (***)",
+"0.32 (***)",
+"-0.31 (***)",
+"-0.16 (***)"
+],
+[
+19,
+"上傳照片張數",
+"0.23 (***)",
+"0.27 (***)",
+"0.23 (***)",
+"0.23 (***)",
+"0.09 (***)",
+"0.05 (**)",
+"0.02 (ns)",
+"-0.02 (ns)",
+"0.01 (ns)",
+"-0.04 (***)",
+"-0.09 (***)",
+"-0.03 (**)",
+"-0.09 (***)",
+"-0.03 (*)",
+"-0.07 (***)",
+"-0.02 (ns)",
+"-0.02 (ns)",
+"0.51 (***)",
+"1 (***)",
+"0.53 (***)",
+"-0.11 (***)",
+"0.13 (***)",
+"0.08 (***)",
+"0.25 (***)",
+"-0.26 (***)",
+"-0.11 (***)"
+],
+[
+20,
+"總攝取熱量(日)",
+"0.14 (***)",
+"0.15 (***)",
+"0.14 (***)",
+"0.14 (***)",
+"0.06 (***)",
+"0.02 (ns)",
+"-0.01 (ns)",
+"-0.01 (ns)",
+"-0.11 (***)",
+"0.08 (***)",
+"0.05 (***)",
+"0.03 (**)",
+"0 (ns)",
+"0 (ns)",
+"0 (ns)",
+"0.02 (ns)",
+"0.05 (**)",
+"0.28 (***)",
+"0.53 (***)",
+"1 (***)",
+"-0.07 (***)",
+"0.06 (***)",
+"0.06 (***)",
+"0.17 (***)",
+"-0.19 (***)",
+"-0.03 (**)"
+],
+[
+21,
+"碳水攝取率(E%)",
+"-0.24 (***)",
+"-0.27 (***)",
+"-0.24 (***)",
+"-0.24 (***)",
+"-0.09 (***)",
+"-0.06 (***)",
+"-0.09 (*)",
+"-0.06 (ns)",
+"-0.16 (***)",
+"-0.07 (***)",
+"-0.02 (ns)",
+"-0.07 (***)",
+"-0.01 (ns)",
+"-0.11 (***)",
+"-0.1 (***)",
+"-0.04 (ns)",
+"-0.04 (*)",
+"-0.14 (***)",
+"-0.11 (***)",
+"-0.07 (***)",
+"1 (***)",
+"-0.78 (***)",
+"-0.96 (***)",
+"-0.31 (***)",
+"0.3 (***)",
+"0.15 (***)"
+],
+[
+22,
+"蛋白攝取率(E%)",
+"0.25 (***)",
+"0.26 (***)",
+"0.25 (***)",
+"0.23 (***)",
+"0.1 (***)",
+"0.06 (***)",
+"0.11 (**)",
+"0.07 (.)",
+"0.1 (***)",
+"0.09 (***)",
+"0.03 (***)",
+"0.08 (***)",
+"0.02 (*)",
+"0.11 (***)",
+"0.1 (***)",
+"0.04 (ns)",
+"0.04 (*)",
+"0.15 (***)",
+"0.13 (***)",
+"0.06 (***)",
+"-0.78 (***)",
+"1 (***)",
+"0.57 (***)",
+"0.44 (***)",
+"-0.41 (***)",
+"-0.26 (***)"
+],
+[
+23,
+"脂肪攝取率(E%)",
+"0.21 (***)",
+"0.24 (***)",
+"0.21 (***)",
+"0.2 (***)",
+"0.08 (***)",
+"0.05 (**)",
+"0.07 (.)",
+"0.04 (ns)",
+"0.17 (***)",
+"0.05 (***)",
+"0.01 (ns)",
+"0.05 (***)",
+"0.01 (ns)",
+"0.09 (***)",
+"0.09 (***)",
+"0.03 (ns)",
+"0.04 (*)",
+"0.11 (***)",
+"0.08 (***)",
+"0.06 (***)",
+"-0.96 (***)",
+"0.57 (***)",
+"1 (***)",
+"0.2 (***)",
+"-0.21 (***)",
+"-0.08 (***)"
+],
+[
+24,
+"綠燈率",
+"0.24 (***)",
+"0.27 (***)",
+"0.24 (***)",
+"0.24 (***)",
+"0.04 (**)",
+"0.03 (.)",
+"0.02 (ns)",
+"-0.01 (ns)",
+"0.05 (***)",
+"-0.03 (**)",
+"-0.09 (***)",
+"-0.01 (ns)",
+"-0.07 (***)",
+"-0.03 (ns)",
+"-0.03 (**)",
+"-0.03 (ns)",
+"-0.08 (***)",
+"0.32 (***)",
+"0.25 (***)",
+"0.17 (***)",
+"-0.31 (***)",
+"0.44 (***)",
+"0.2 (***)",
+"1 (***)",
+"-0.93 (***)",
+"-0.59 (***)"
+],
+[
+25,
+"黃燈率",
+"-0.23 (***)",
+"-0.26 (***)",
+"-0.23 (***)",
+"-0.23 (***)",
+"-0.07 (***)",
+"-0.04 (**)",
+"-0.02 (ns)",
+"0.01 (ns)",
+"-0.04 (***)",
+"0.03 (**)",
+"0.08 (***)",
+"0.01 (ns)",
+"0.07 (***)",
+"0.02 (ns)",
+"0.02 (*)",
+"0.03 (ns)",
+"0.06 (***)",
+"-0.31 (***)",
+"-0.26 (***)",
+"-0.19 (***)",
+"0.3 (***)",
+"-0.41 (***)",
+"-0.21 (***)",
+"-0.93 (***)",
+"1 (***)",
+"0.26 (***)"
+],
+[
+26,
+"紅燈率",
+"-0.13 (***)",
+"-0.15 (***)",
+"-0.13 (***)",
+"-0.13 (***)",
+"0.03 (.)",
+"0.01 (ns)",
+"-0.02 (ns)",
+"0.01 (ns)",
+"-0.04 (***)",
+"0.02 (*)",
+"0.05 (***)",
+"0 (ns)",
+"0.03 (**)",
+"0.03 (.)",
+"0.03 (**)",
+"0.04 (ns)",
+"0.08 (***)",
+"-0.16 (***)",
+"-0.11 (***)",
+"-0.03 (**)",
+"0.15 (***)",
+"-0.26 (***)",
+"-0.08 (***)",
+"-0.59 (***)",
+"0.26 (***)",
+"1 (***)"
+] 
+];
+data.addColumn('number','#');
+data.addColumn('string','vars');
+data.addColumn('string','∆體重');
+data.addColumn('string','∆體重(%)');
+data.addColumn('string','△BMI');
+data.addColumn('string','△BMI(％)');
+data.addColumn('string','△體脂(kg)');
+data.addColumn('string','△體脂(％)');
+data.addColumn('string','∆腰圍');
+data.addColumn('string','∆腰圍(%)');
+data.addColumn('string','年齡');
+data.addColumn('string','體重(前)');
+data.addColumn('string','體重(後)');
+data.addColumn('string','BMI(前)');
+data.addColumn('string','BMI(後)');
+data.addColumn('string','體脂(前)');
+data.addColumn('string','體脂(後)');
+data.addColumn('string','腰圍(前)');
+data.addColumn('string','腰圍(後)');
+data.addColumn('string','飲食紀錄完成率(%)');
+data.addColumn('string','上傳照片張數');
+data.addColumn('string','總攝取熱量(日)');
+data.addColumn('string','碳水攝取率(E%)');
+data.addColumn('string','蛋白攝取率(E%)');
+data.addColumn('string','脂肪攝取率(E%)');
+data.addColumn('string','綠燈率');
+data.addColumn('string','黃燈率');
+data.addColumn('string','紅燈率');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTableID1427560f35a5d() {
+var data = gvisDataTableID1427560f35a5d();
+var options = {};
+options["allowHtml"] = true;
+options["frozenColumns"] = 2;
+options["height"] = 300;
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID1427560f35a5d')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID1427560f35a5d);
+})();
+function displayChartTableID1427560f35a5d() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+<!-- jsChart -->
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID1427560f35a5d"></script>
+<!-- divChart -->
+<div id="TableID1427560f35a5d" style="width: 150%; height: 300;">
+
+</div>
+<table>
+<caption>
+<span id="tab:unnamed-chunk-6">Table 3.1: </span>Correlation: Diet and Effectiveness
+</caption>
+<tbody>
+<tr>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<p style="text-align: center;">
+<a href="3.1-profile_ob.html"><button class="btn btn-default">Previous</button></a>
+<a href="3.3-strat_1_ob.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>

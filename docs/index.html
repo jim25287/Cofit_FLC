@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Cofit - FLC 醫療大數據 (分析報告)</title>
+  <meta name="description" content="Cofit - FLC 醫療大數據 (分析報告)" />
+  <meta name="generator" content="bookdown 0.32 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Cofit - FLC 醫療大數據 (分析報告)" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Cofit - FLC 醫療大數據 (分析報告)" />
+  
+  
+  
+
+<meta name="author" content="By BigData Team" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="cofit減重策略優勢比較.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSC50GVDJ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DSC50GVDJ7');
+</script>
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Highlight</a></li>
+<li class="chapter" data-level="1" data-path="cofit減重策略優勢比較.html"><a href="cofit減重策略優勢比較.html"><i class="fa fa-check"></i><b>1</b> Cofit減重策略優勢比較</a></li>
+<li class="chapter" data-level="2" data-path="cofit-飲食策略.html"><a href="cofit-飲食策略.html"><i class="fa fa-check"></i><b>2</b> Cofit 飲食策略</a></li>
+<li class="chapter" data-level="3" data-path="減重成效---單次療程.html"><a href="減重成效---單次療程.html"><i class="fa fa-check"></i><b>3</b> 減重成效 - (單次療程)</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="profile_ob.html"><a href="profile_ob.html"><i class="fa fa-check"></i><b>3.1</b> 客戶輪廓分析</a></li>
+<li class="chapter" data-level="3.2" data-path="cor_ob.html"><a href="cor_ob.html"><i class="fa fa-check"></i><b>3.2</b> 相關分析(Correlation Analysis)</a>
+<ul>
+<li class="chapter" data-level="" data-path="cor_ob.html"><a href="cor_ob.html#cor_ob_var_specific"><i class="fa fa-check"></i>特定變數</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="strat_1_ob.html"><a href="strat_1_ob.html"><i class="fa fa-check"></i><b>3.3</b> 分層分析-1: 減重成效</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#baseline_ob"><i class="fa fa-check"></i>初始狀態(Baseline)</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#baseline_ob_inbody"><i class="fa fa-check"></i>Inbody</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#endpoint_ob"><i class="fa fa-check"></i>介入後狀態(Endpoint)</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#endpoint_ob_inbody"><i class="fa fa-check"></i>Inbody</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#diet_ob"><i class="fa fa-check"></i>飲食(Diet)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_ob"><i class="fa fa-check"></i>∆成效(Effectiveness)</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_ob_inbody"><i class="fa fa-check"></i>Inbody</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_p_ob"><i class="fa fa-check"></i>∆成效(%)(Effectiveness)</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_p_ob_inbody"><i class="fa fa-check"></i>Inbody</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#Summary_ob"><i class="fa fa-check"></i>Summary</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cofit - FLC 醫療大數據 (分析報告)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Cofit - FLC 醫療大數據 (分析報告)</h1>
+<p class="author"><em>By BigData Team</em></p>
+<p class="date"><em>Last Updated On 2023-05-11</em></p>
+</div>
+<div id="index" class="section level1 unnumbered hasAnchor">
+<h1>Highlight<a href="index.html#index" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>1.Cofit累積客戶統計：</strong></p>
+<!-- AnnotationChart generated in R 4.2.1 by googleVis 0.7.0 package -->
+<!-- Thu May 11 09:52:38 2023 -->
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataAnnotationChartID143fa29cc6ee9 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+new Date(2016,8,1),
+24,
+null,
+null,
+0,
+null,
+null,
+24,
+null,
+null
+],
+[
+new Date(2016,9,1),
+134,
+null,
+null,
+13,
+null,
+null,
+121,
+null,
+null
+],
+[
+new Date(2016,10,1),
+213,
+null,
+null,
+31,
+null,
+null,
+182,
+null,
+null
+],
+[
+new Date(2016,11,1),
+271,
+null,
+null,
+134,
+null,
+null,
+137,
+null,
+null
+],
+[
+new Date(2017,0,1),
+296,
+null,
+null,
+237,
+null,
+null,
+59,
+null,
+null
+],
+[
+new Date(2017,1,1),
+390,
+null,
+null,
+277,
+null,
+null,
+113,
+null,
+null
+],
+[
+new Date(2017,2,1),
+447,
+null,
+null,
+296,
+null,
+null,
+151,
+null,
+null
+],
+[
+new Date(2017,3,1),
+483,
+null,
+null,
+390,
+null,
+null,
+93,
+null,
+null
+],
+[
+new Date(2017,4,1),
+508,
+null,
+null,
+447,
+null,
+null,
+61,
+null,
+null
+],
+[
+new Date(2017,5,1),
+547,
+null,
+null,
+483,
+null,
+null,
+64,
+null,
+null
+],
+[
+new Date(2017,6,1),
+565,
+null,
+null,
+531,
+null,
+null,
+34,
+null,
+null
+],
+[
+new Date(2017,7,1),
+573,
+null,
+null,
+547,
+null,
+null,
+26,
+null,
+null
+],
+[
+new Date(2017,8,1),
+588,
+null,
+null,
+565,
+null,
+null,
+23,
+null,
+null
+],
+[
+new Date(2017,9,1),
+619,
+null,
+null,
+578,
+null,
+null,
+41,
+null,
+null
+],
+[
+new Date(2017,10,1),
+649,
+null,
+null,
+593,
+null,
+null,
+56,
+null,
+null
+],
+[
+new Date(2017,11,1),
+699,
+null,
+null,
+619,
+null,
+null,
+80,
+null,
+null
+],
+[
+new Date(2018,0,1),
+723,
+null,
+null,
+656,
+null,
+null,
+67,
+null,
+null
+],
+[
+new Date(2018,1,1),
+759,
+null,
+null,
+699,
+null,
+null,
+60,
+null,
+null
+],
+[
+new Date(2018,2,1),
+830,
+null,
+null,
+714,
+null,
+null,
+116,
+null,
+null
+],
+[
+new Date(2018,3,1),
+940,
+null,
+null,
+784,
+null,
+null,
+156,
+null,
+null
+],
+[
+new Date(2018,4,1),
+1042,
+null,
+null,
+832,
+null,
+null,
+210,
+null,
+null
+],
+[
+new Date(2018,5,1),
+1172,
+null,
+null,
+959,
+null,
+null,
+213,
+null,
+null
+],
+[
+new Date(2018,6,1),
+1281,
+null,
+null,
+1082,
+null,
+null,
+199,
+null,
+null
+],
+[
+new Date(2018,7,1),
+1366,
+null,
+null,
+1175,
+null,
+null,
+191,
+null,
+null
+],
+[
+new Date(2018,8,1),
+1460,
+null,
+null,
+1266,
+null,
+null,
+194,
+null,
+null
+],
+[
+new Date(2018,9,1),
+1555,
+null,
+null,
+1375,
+null,
+null,
+180,
+null,
+null
+],
+[
+new Date(2018,10,1),
+1640,
+null,
+null,
+1466,
+null,
+null,
+174,
+null,
+null
+],
+[
+new Date(2018,11,1),
+1707,
+null,
+null,
+1557,
+null,
+null,
+150,
+null,
+null
+],
+[
+new Date(2019,0,1),
+1750,
+null,
+null,
+1670,
+null,
+null,
+80,
+null,
+null
+],
+[
+new Date(2019,1,1),
+1842,
+null,
+null,
+1699,
+null,
+null,
+143,
+null,
+null
+],
+[
+new Date(2019,2,1),
+2016,
+null,
+null,
+1788,
+null,
+null,
+228,
+null,
+null
+],
+[
+new Date(2019,3,1),
+2120,
+null,
+null,
+1950,
+null,
+null,
+170,
+null,
+null
+],
+[
+new Date(2019,4,1),
+2235,
+null,
+null,
+2070,
+null,
+null,
+165,
+null,
+null
+],
+[
+new Date(2019,5,1),
+2276,
+null,
+null,
+2145,
+null,
+null,
+131,
+null,
+null
+],
+[
+new Date(2019,6,1),
+2371,
+null,
+null,
+2251,
+null,
+null,
+120,
+null,
+null
+],
+[
+new Date(2019,7,1),
+2387,
+null,
+null,
+2280,
+null,
+null,
+107,
+null,
+null
+],
+[
+new Date(2019,8,1),
+2453,
+null,
+null,
+2367,
+null,
+null,
+86,
+null,
+null
+],
+[
+new Date(2019,9,1),
+2499,
+null,
+null,
+2391,
+null,
+null,
+108,
+null,
+null
+],
+[
+new Date(2019,10,1),
+2600,
+null,
+null,
+2452,
+null,
+null,
+148,
+null,
+null
+],
+[
+new Date(2019,11,1),
+2650,
+null,
+null,
+2507,
+null,
+null,
+143,
+null,
+null
+],
+[
+new Date(2020,0,1),
+2655,
+null,
+null,
+2588,
+null,
+null,
+67,
+null,
+null
+],
+[
+new Date(2020,1,1),
+2768,
+null,
+null,
+2627,
+null,
+null,
+141,
+null,
+null
+],
+[
+new Date(2020,2,1),
+2825,
+null,
+null,
+2651,
+null,
+null,
+174,
+null,
+null
+],
+[
+new Date(2020,3,1),
+2884,
+null,
+null,
+2770,
+null,
+null,
+114,
+null,
+null
+],
+[
+new Date(2020,4,1),
+3010,
+null,
+null,
+2816,
+null,
+null,
+194,
+null,
+null
+],
+[
+new Date(2020,5,1),
+3130,
+null,
+null,
+2928,
+null,
+null,
+202,
+null,
+null
+],
+[
+new Date(2020,6,1),
+3292,
+null,
+null,
+3016,
+null,
+null,
+276,
+null,
+null
+],
+[
+new Date(2020,7,1),
+3444,
+null,
+null,
+3180,
+null,
+null,
+264,
+null,
+null
+],
+[
+new Date(2020,8,1),
+3614,
+null,
+null,
+3325,
+null,
+null,
+289,
+null,
+null
+],
+[
+new Date(2020,9,1),
+3739,
+null,
+null,
+3446,
+null,
+null,
+293,
+null,
+null
+],
+[
+new Date(2020,10,1),
+3886,
+null,
+null,
+3592,
+null,
+null,
+294,
+null,
+null
+],
+[
+new Date(2020,11,1),
+3986,
+null,
+null,
+3738,
+null,
+null,
+248,
+null,
+null
+],
+[
+new Date(2021,0,1),
+4109,
+null,
+null,
+3861,
+null,
+null,
+248,
+null,
+null
+],
+[
+new Date(2021,1,1),
+4175,
+null,
+null,
+3939,
+null,
+null,
+236,
+null,
+null
+],
+[
+new Date(2021,2,1),
+4367,
+null,
+null,
+4092,
+null,
+null,
+275,
+null,
+null
+],
+[
+new Date(2021,3,1),
+4509,
+null,
+null,
+4218,
+null,
+null,
+291,
+null,
+null
+],
+[
+new Date(2021,4,1),
+4649,
+null,
+null,
+4382,
+null,
+null,
+267,
+null,
+null
+],
+[
+new Date(2021,5,1),
+4728,
+null,
+null,
+4536,
+null,
+null,
+192,
+null,
+null
+],
+[
+new Date(2021,6,1),
+5198,
+null,
+null,
+4626,
+null,
+null,
+572,
+null,
+null
+],
+[
+new Date(2021,7,1),
+5552,
+null,
+null,
+4732,
+null,
+null,
+820,
+null,
+null
+],
+[
+new Date(2021,8,1),
+5859,
+null,
+null,
+5313,
+null,
+null,
+546,
+null,
+null
+],
+[
+new Date(2021,9,1),
+6113,
+null,
+null,
+5527,
+null,
+null,
+586,
+null,
+null
+],
+[
+new Date(2021,10,1),
+6357,
+null,
+null,
+5827,
+null,
+null,
+530,
+null,
+null
+],
+[
+new Date(2021,11,1),
+6673,
+null,
+null,
+6111,
+null,
+null,
+562,
+null,
+null
+],
+[
+new Date(2022,0,1),
+6833,
+null,
+null,
+6279,
+null,
+null,
+554,
+null,
+null
+],
+[
+new Date(2022,1,1),
+7169,
+null,
+null,
+6575,
+null,
+null,
+594,
+null,
+null
+],
+[
+new Date(2022,2,1),
+7459,
+null,
+null,
+6776,
+null,
+null,
+683,
+null,
+null
+],
+[
+new Date(2022,3,1),
+7851,
+null,
+null,
+7041,
+null,
+null,
+810,
+null,
+null
+],
+[
+new Date(2022,4,1),
+8143,
+null,
+null,
+7401,
+null,
+null,
+742,
+null,
+null
+],
+[
+new Date(2022,5,1),
+8457,
+null,
+null,
+7745,
+null,
+null,
+712,
+null,
+null
+],
+[
+new Date(2022,6,1),
+8926,
+null,
+null,
+8080,
+null,
+null,
+846,
+null,
+null
+],
+[
+new Date(2022,7,1),
+9379,
+null,
+null,
+8457,
+null,
+null,
+922,
+null,
+null
+],
+[
+new Date(2022,8,1),
+9898,
+null,
+null,
+8936,
+null,
+null,
+962,
+null,
+null
+],
+[
+new Date(2022,9,1),
+10428,
+null,
+null,
+9422,
+null,
+null,
+1006,
+null,
+null
+],
+[
+new Date(2022,10,1),
+10839,
+null,
+null,
+9869,
+null,
+null,
+970,
+null,
+null
+],
+[
+new Date(2022,11,1),
+11367,
+null,
+null,
+10304,
+null,
+null,
+1063,
+null,
+null
+],
+[
+new Date(2023,0,1),
+11599,
+null,
+null,
+10710,
+null,
+null,
+889,
+null,
+null
+],
+[
+new Date(2023,1,1),
+12212,
+null,
+null,
+11240,
+null,
+null,
+972,
+null,
+null
+],
+[
+new Date(2023,2,1),
+12775,
+null,
+null,
+11470,
+null,
+null,
+1305,
+null,
+null
+],
+[
+new Date(2023,3,1),
+13065,
+null,
+null,
+12048,
+null,
+null,
+1017,
+null,
+null
+] 
+];
+data.addColumn('date','date');
+data.addColumn('number','Total');
+data.addColumn('string','anno_title.Total');
+data.addColumn('string','anno_text.Total');
+data.addColumn('number','Completed');
+data.addColumn('string','anno_title.Completed');
+data.addColumn('string','anno_text.Completed');
+data.addColumn('number','In Progress');
+data.addColumn('string','anno_title.In Progress');
+data.addColumn('string','anno_text.In Progress');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartAnnotationChartID143fa29cc6ee9() {
+var data = gvisDataAnnotationChartID143fa29cc6ee9();
+var options = {};
+options["height"] = 350;
+options["displayAnnotations"] = true;
+options["legendPosition"] = "newRow";
+
+    chartAnnotationChartID143fa29cc6ee9 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'AnnotationChart',
+    containerId: 'AnnotationChartID143fa29cc6ee9',
+    options: options
+    });
+    chartAnnotationChartID143fa29cc6ee9.draw();
+    
+
+}
+
+  function openEditorAnnotationChartID143fa29cc6ee9() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartAnnotationChartID143fa29cc6ee9 = editor.getChartWrapper();  
+  chartAnnotationChartID143fa29cc6ee9.draw(document.getElementById('AnnotationChartID143fa29cc6ee9')); 
+  }); 
+  editor.openDialog(chartAnnotationChartID143fa29cc6ee9);
+  }
+    
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartAnnotationChartID143fa29cc6ee9);
+})();
+function displayChartAnnotationChartID143fa29cc6ee9() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+<!-- jsChart -->
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartAnnotationChartID143fa29cc6ee9"></script>
+<!-- divChart -->
+<input type='button' onclick='openEditorAnnotationChartID143fa29cc6ee9()' value='[選項]:圖表轉換'/><br />
+<div id="AnnotationChartID143fa29cc6ee9" style="width: 100%; height: 350;">
+
+</div>
+<p><strong>#＃總計「累積服務客戶數」:</strong> <u><strong>1.3065^{4}</strong></u><strong>(人次)</strong></p>
+<p><strong>#＃總計「累積減重公斤數」:</strong> <u><strong>2.56185^{4}</strong></u><strong>(Kg)</strong></p>
+</div>
+<!-- table string rm (string_rm.js) -->
+<script>
+  let tables = document.getElementsByTagName("table");
+for (let i = 0; i < tables.length; i++) {
+    let table = tables[i];
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input rscript\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_global\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_test\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_sua\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_girc\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_flc\)/g, "");
+}
+</script>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="cofit減重策略優勢比較.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

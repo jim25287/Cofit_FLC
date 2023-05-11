@@ -43,7 +43,7 @@ knitr::opts_chunk$set(echo = FALSE, comment = NA, results = 'asis', warning = FA
 options(knitr.graphics.auto_pdf = TRUE, gvis.plot.tag = 'chart')
 ```
 
-```{r alternative try I: input workspace, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 
 load("~/Lincoln/02.Work/04. R&D/02. HIIS_OPP/00.Gitbook/01.CG/WSpace_preproc.RData")
 
@@ -63,28 +63,29 @@ source("~/Lincoln/02.Work/04. R&D/02. HIIS_OPP/00.Gitbook/01.CG/CG_report/rscrip
 
 ```
 
-
 # Highlight {#index .unnumbered}
 
-**1.Cofit累積客戶統計：**
+## **Cofit累積客戶統計：**
 
 ```{r, results='asis', fig.width = 6}
-cofit_client_monthly_stat_report %>% plot()d
+cofit_client_monthly_stat_report %>% plot()
 ```
 
 **#＃總計「累積服務客戶數」:** [**`r cofit_client_monthly_stat_report_total_client`**]{.underline}**(人次)**
 
-**2.初日減重門診 - 單次療程**(分析人數: `r success_df_freq[["Total"]] %>% max()`)：
+**#＃總計「累積減重公斤數」:** [**`r marketing_stat_tbl[1] %>% multiply_by(-1) %>% as.numeric()`**]{.underline}**(Kg)**
 
--   [**成功減重人數(%)**]{.underline}，總計`r success_df_freq[success_df_freq$gender == "Total", "success"]`人(成功率:[**`r success_df_pct[success_df_freq$gender == "Total", "success"]`**]{.underline})。
--   [**女性:**]{.underline}`r success_df_freq[success_df_freq$gender == "female", "success"]`人(成功率:[**`r success_df_pct[success_df_freq$gender == "female", "success"]`**]{.underline})。
--   [**男性:**]{.underline}`r success_df_freq[success_df_freq$gender == "male", "success"]`人(成功率:[**`r success_df_pct[success_df_freq$gender == "male", "success"]`**]{.underline})。
+## **Cofit減重策略優勢比較**
 
-```{r, results='asis'}
-gvisMerge(plot_stack_col_female,plot_stack_col_male, horizontal = TRUE,
-          tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
+相較於其他減重方法學，採用Cofit數位體重管理方案成效顯著勝出；且與飲食黏著度成正相關。
+
+```{r}
+plot_flc_ctrl_comparison
 
 ```
+
+## **Cofit 飲食策略**
+![](https://raw.githubusercontent.com/jim25287/CG_report/main/image/girc_class_major.png)
 
 <!-- Introduction context...(editing) -->
 
@@ -94,20 +95,6 @@ gvisMerge(plot_stack_col_female,plot_stack_col_male, horizontal = TRUE,
 
 版本更新：
 
-[更新]
-
--   2023-04-27
-    1.  尿酮體 x 空腹胰島素分析(分群:介入前後Ketone變化)([Link](#ketone_response))
-    2.  單因子預測力&切點分析(篩選:飲食紀律佳)([Link](#predict_cutoff_roc_filtered))
-
-[新增]
-
--   2023-04-27
-    1.  體重成效分層分析(篩選:飲食紀律佳)([Link](#strat_1_ob_filtered))
--   2023-04-20
-    1.  單因子預測力&切點分析([Link](#predict_cutoff_roc))
--   2023-04-19
-    1.  全變數 - Pearson Correlation Table([Link](#cor_ob_var_all))
-    2.  尿酮體 x 空腹胰島素分析([Link](#ketone_response))
+[無]
 
 [(識別碼：`r lin_timestamp()`)]{style="float:right"}
