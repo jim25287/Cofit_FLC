@@ -12,7 +12,6 @@ table_01_flc
 
 ### 初始狀態(Baseline) {#baseline_ob .unnumbered}
 
-[在目前的減重客群中]{.underline}，我們的控糖減重策略成效跟「介入前狀態」 無顯著相關。
 
 #### Inbody {#baseline_ob_inbody .unnumbered}
 
