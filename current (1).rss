@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# uri:atypon.com:cms:schema:rdf.xsd">
+   <channel rdf:about="https://advances.nutrition.org/issues?publicationCode=advnut&amp;rss=yes">
+      <title>Advances in Nutrition</title>
+      <description>Advances in Nutrition RSS feed. </description>
+      <link>https://advances.nutrition.org/issues?publicationCode=advnut&amp;rss=yes</link>
+      <dc:publisher>Elsevier Inc.</dc:publisher>
+      <dc:language>en</dc:language>
+      <dc:rights>© 2023 Published by Elsevier Inc. All rights reserved.</dc:rights>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:issn>2161-8313</prism:issn>
+      <prism:publicationDate>2023-06-06-07:00</prism:publicationDate>
+      <prism:copyright>© 2023 Published by Elsevier Inc. All rights reserved.</prism:copyright>
+      <prism:rightsAgent>permissionshelpdesk@elsevier.com</prism:rightsAgent>
+      <items>
+         <rdf:Seq>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)01323-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)01322-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)01321-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)01319-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)01320-0/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00318-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00317-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00314-9/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00300-9/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00316-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00313-7/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00315-0/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00312-5/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00311-3/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00310-1/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00309-5/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00299-5/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00298-3/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00297-1/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00296-X/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00295-8/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00294-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00293-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00292-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00288-0/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00291-0/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00290-9/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00289-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00287-9/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00284-3/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00283-1/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00286-7/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00281-8/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00282-X/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00285-5/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00280-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00279-X/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00278-8/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00277-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00276-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00275-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00274-0/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00270-3/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00273-9/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00272-7/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00271-5/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00265-X/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00263-6/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00264-8/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00217-X/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00135-7/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00005-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00001-7/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00303-4/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00302-2/fulltext?rss=yes"/>
+            <rdf:li rdf:resource="https://advances.nutrition.org/article/S2161-8313(23)00301-0/fulltext?rss=yes"/>
+         </rdf:Seq>
+      </items>
+   </channel>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)01323-6/fulltext?rss=yes">
+      <title>Perspective: The Benefits of Including Flavored Milk in Healthy Dietary Patterns</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)01323-6/fulltext?rss=yes</link>
+      <description>The Dietary Guidelines for Americans recommend two-and-a-half cup equivalents of low-fat and fat-free dairy foods per day for children four to eight years and three cup equivalents per day for adolescents ages nine to eighteen and adults. Currently, the Dietary Guidelines for Americans recognizes four nutrients as being of public concern due to suboptimal levels in the diet. These include calcium, dietary fiber, potassium, and vitamin D. In the American diet ─ dairy foods are leading contributors of calcium, vitamin D, and potassium.</description>
+      <dc:title>Perspective: The Benefits of Including Flavored Milk in Healthy Dietary Patterns</dc:title>
+      <dc:creator>Kristin Ricklefs-Johnson, Matthew A. Pikosky</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.06.002</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-06-06</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-06-06</prism:publicationDate>
+      <prism:section>Perspective</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)01322-4/fulltext?rss=yes">
+      <title>Synthesis and Functions of Resistant Starch</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)01322-4/fulltext?rss=yes</link>
+      <description>Resistant starch (RS) has become a popular topic of research in recent years. Most scholars believe that there are five types of RS. However, accumulating evidence indicates that in addition to starch–lipid complexes, which are the fifth type of RS, complexes containing starch and other substances can also be generated. The physicochemical properties and physiological functions of these complexes are worth exploring. New physiological functions of several original RSs are constantly being discovered.</description>
+      <dc:title>Synthesis and Functions of Resistant Starch</dc:title>
+      <dc:creator>Zhanggui Wang, Shuli Wang, Qinhong Xu, Qi Kong, Fei Li, Lin Lu, Yibiao Xu, Yali Wei</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.06.001</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-06-02</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-06-02</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)01321-2/fulltext?rss=yes">
+      <title>Ultraprocessed food is not a replacement for whole food.</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)01321-2/fulltext?rss=yes</link>
+      <description>Owen J. Kelly has no conflicts of interest.</description>
+      <dc:title>Ultraprocessed food is not a replacement for whole food.</dc:title>
+      <dc:creator>Owen J. Kelly</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.016</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-06-02</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-06-02</prism:publicationDate>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)01319-4/fulltext?rss=yes">
+      <title>Cell survival, death, and proliferation in senescent and cancer cells: the role of (poly)phenols</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)01319-4/fulltext?rss=yes</link>
+      <description>Cellular senescence has long been considered a permanent state of cell cycle arrest occurring in proliferating cells subject to different stressors, used as a cellular defense mechanism from acquiring potentially harmful genetic faults. However, recent studies highlight as senescent cells might also alter the local tissue environment and concur to chronic inflammation and cancer risk by secreting inflammatory and matrix remodeling factors, acquiring a senescence-associated secretory phenotype (SASP).</description>
+      <dc:title>Cell survival, death, and proliferation in senescent and cancer cells: the role of (poly)phenols</dc:title>
+      <dc:creator>Vincenzo Sorrenti, Alessandro Buriani, Stefano Fortinguerra, Sergio Davinelli, Giovanni Scapagnini, Aedin Cassidy, Immaculata De Vivo</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.014</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-06-01</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-06-01</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)01320-0/fulltext?rss=yes">
+      <title>Perspective: Council for Responsible Nutrition (CRN) Science in Session. Optimizing Health with Nutrition – Opportunities, Gaps, and the Future</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)01320-0/fulltext?rss=yes</link>
+      <description>Achieving optimal health is an aspirational goal for the population, yet the definition of health remains unclear. The role of nutrition in health has evolved beyond correcting malnutrition and specific deficiencies, and has begun to focus more on achieving and maintaining ‘optimal’ health through nutrition. As such, the Council for Responsible Nutrition held its October 2022 Science in Session conference to advance this concept. Here, we summarize and discuss the findings of their Optimizing Health through Nutrition – Opportunities and Challenges workshop, including several gaps that need to be addressed to advance progress in the field.</description>
+      <dc:title>Perspective: Council for Responsible Nutrition (CRN) Science in Session. Optimizing Health with Nutrition – Opportunities, Gaps, and the Future</dc:title>
+      <dc:creator>Emily Ho, Victoria J. Drake, Alexander J. Michels, Yasmeen M. Nkrumah-Elie, LaVerne L. Brown, Jonathan M. Scott, John W. Newman, Barbara Shukitt-Hale, Amala Soumyanath, Floyd H. Chilton, Stephen R. Lindemann, Andrew Shao, Susan Hazels Mitmesser</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.015</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-31</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-31</prism:publicationDate>
+      <prism:section>Perspective</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00318-6/fulltext?rss=yes">
+      <title>Beta-sitosterol as a promising anticancer agent for chemoprevention and chemotherapy: mechanisms of action and future prospects</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00318-6/fulltext?rss=yes</link>
+      <description>Cancer is one of the primary causes of death worldwide and its incidence continues to increase year by year. Despite significant advances in research, the search for effective and non-toxic preventive and therapeutic agents remains greatly important. Cancer is a multimodal disease, where various mechanisms play significant roles in its occurrence and progression. This highlights the need for multi-targeted approaches that are not only safe and inexpensive, but provide effective alternatives for current therapeutic regimens.</description>
+      <dc:title>Beta-sitosterol as a promising anticancer agent for chemoprevention and chemotherapy: mechanisms of action and future prospects</dc:title>
+      <dc:creator>Haoyu Wang, Zhi Wang, Zihui Zhang, Jingchun Liu, Li Hong</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.013</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-27</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-27</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00317-4/fulltext?rss=yes">
+      <title>The impact of providing material benefits to improve access to food on clinical parameters, dietary intake, and household food insecurity in people with diabetes: a systematic review with narrative synthesis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00317-4/fulltext?rss=yes</link>
+      <description>The high cost of healthy foods makes maintaining a healthy dietary pattern challenging, particularly amongst people with diabetes who are experiencing food insecurity. The objectives of this study were to: 1) review evidence on the impact of providing material benefits (e.g., food coupons/vouchers, free food, or financial subsidies/incentives) to improve access to food on clinical parameters, dietary intake, and household food insecurity in people with diabetes, and 2) review relevant economic evidence.</description>
+      <dc:title>The impact of providing material benefits to improve access to food on clinical parameters, dietary intake, and household food insecurity in people with diabetes: a systematic review with narrative synthesis</dc:title>
+      <dc:creator>Kieran J.D. Steer, Dana Lee Olstad, David J.T. Campbell, Reed Beall, Se’era M. Anstruther, Stéphanie Caron-Roy, Eldon Spackman</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.012</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-26</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-26</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00314-9/fulltext?rss=yes">
+      <title>Magnesium and liver metabolism through the lifespan</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00314-9/fulltext?rss=yes</link>
+      <description>Within the organism, the liver is the main organ responsible for metabolic homeostasis and xenobiotic transformation. In order to maintain an adequate liver weight-to-bodyweight ratio, this organ has an extraordinary regenerative capacity, able to respond to an acute insult or partial hepatectomy (PH). Maintenance of hepatic homeostasis is crucial for the proper functioning of the liver, and in this context, an adequate nutrition with macro- and micronutrient intake is mandatory. Among all known macro-minerals, magnesium has a key role in energy metabolism and in metabolic and signaling pathways that maintain liver function and physiology throughout its life span.</description>
+      <dc:title>Magnesium and liver metabolism through the lifespan</dc:title>
+      <dc:creator>Miren Bravo, Jorge Simón, Irene González-Recio, Luis Alfonso Martinez-Cruz, Naroa Goikoetxea-Usandizaga, María Luz Martínez-Chantar</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.009</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-17</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-17</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00300-9/fulltext?rss=yes">
+      <title>Erratum to “With Appreciation” [Advances in Nutrition, Volume 14, Issue 1, January 2023, Pages 211–213]</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00300-9/fulltext?rss=yes</link>
+      <description>The following individuals were inadvertently omitted from the 2022 reviewer acknowledgement. We thank them for taking the time necessary to evaluate original manuscripts.</description>
+      <dc:title>Erratum to “With Appreciation” [Advances in Nutrition, Volume 14, Issue 1, January 2023, Pages 211–213]</dc:title>
+      <dc:identifier>10.1016/j.advnut.2023.05.002</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-16</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-16</prism:publicationDate>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00316-2/fulltext?rss=yes">
+      <title>Whey Protein Supplementation with or without Vitamin D on Sarcopenia-Related Measures: A Systematic Review and Meta-Analysis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00316-2/fulltext?rss=yes</link>
+      <description>The effects of supplementation with whey protein alone or with vitamin D on sarcopenia-related outcomes in older adults are unclear. We aimed to assess the effect of whey protein supplementation alone or with vitamin D on lean mass (LM), strength, and function in older adults with or without sarcopenia or frailty. We searched PubMed, Web of Science, and SCOPUS databases. Randomized controlled trials (RCT) that investigated the effect of whey protein supplementation with or without vitamin D on sarcopenia outcomes in healthy and sarcopenic or frail older adults were included.</description>
+      <dc:title>Whey Protein Supplementation with or without Vitamin D on Sarcopenia-Related Measures: A Systematic Review and Meta-Analysis</dc:title>
+      <dc:creator>Nasrin Nasimi, Zahra Sohrabi, Everson A. Nunes, Erfan Sadeghi, Sanaz Jamshidi, Zohreh Gholami, Marzieh Akbarzadeh, Shiva Faghih, Masoumeh Akhlaghi, Stuart M. Phillips</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.011</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-15</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-15</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00313-7/fulltext?rss=yes">
+      <title>The Association between Total Protein, Animal Protein, and Animal Protein Sources with Risk of Inflammatory Bowel Diseases: A Systematic Review and Meta-Analysis of Cohort Studies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00313-7/fulltext?rss=yes</link>
+      <description>We aimed to conduct this dose-dependent meta-analysis to examine the relation between total protein, animal protein, and its sources with inflammatory bowel disease (IBD). We searched databases, comprising PubMed/Medline, Web of Science (ISI), Embase, and Google Scholar, for the published studies up to 28 March 2023. Prospective cohort study designs that investigated associations between dietary intake of various animal protein sources and with risk of IBD in the general population were identified.</description>
+      <dc:title>The Association between Total Protein, Animal Protein, and Animal Protein Sources with Risk of Inflammatory Bowel Diseases: A Systematic Review and Meta-Analysis of Cohort Studies</dc:title>
+      <dc:creator>Sepide Talebi, Sheida Zeraattalab-Motlagh, Mehran Rahimlou, Fatemeh Naeini, Mahsa Ranjbar, Ali Talebi, Hamed Mohammadi</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.008</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-13</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-13</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00315-0/fulltext?rss=yes">
+      <title>Artificially Sweetened Beverages and Health Outcomes: An Umbrella Review</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00315-0/fulltext?rss=yes</link>
+      <description>The consumption of artificially sweetened beverages (ASBs) is increasing in some countries. However, some meta-analyses have found that habitual consumers of ASBs (compared with low or no consumption) had an increased risk on some health outcomes. We performed an umbrella review of meta-analyses to grade the credibility of the evidence of claimed observational associations between ASBs and health outcomes. Data were searched in Web of Science, Embase, and PubMed for systematic reviews published up to 25 May 2022, examining association between ASBs and any health outcomes.</description>
+      <dc:title>Artificially Sweetened Beverages and Health Outcomes: An Umbrella Review</dc:title>
+      <dc:creator>Cristina Diaz, Leandro F.M. Rezende, Angelo Sabag, Dong Hoon Lee, Gerson Ferrari, Edward L. Giovannucci, Juan Pablo Rey-Lopez</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.010</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-12</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-12</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00312-5/fulltext?rss=yes">
+      <title>Serine metabolic reprogramming in tumorigenesis, tumor immunity and clinical treatment</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00312-5/fulltext?rss=yes</link>
+      <description>Serine has been recently identified as an essential metabolite for oncogenesis, progression, and adaptive immunity. Influenced by many physiological or tumor environmental factors, the metabolic pathways of serine synthesis, uptake, and usage are heterogeneously reprogrammed and frequently amplified in tumor or tumor-associated cells. The hyperactivation of serine metabolism promotes abnormal cellular nucleotide/protein/lipid synthesis, mitochondrial function, and epigenetic modifications, which drive malignant transformation, unlimited proliferation, metastasis, immunosuppression, and drug resistance of tumor cells.</description>
+      <dc:title>Serine metabolic reprogramming in tumorigenesis, tumor immunity and clinical treatment</dc:title>
+      <dc:creator>Wang Shunxi, Yuan Xiaoxue, Song Guanbin, Yang Li, Jin Junyu, Liu Wanqian</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.007</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-12</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-12</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00311-3/fulltext?rss=yes">
+      <title>A Scoping Review of Household Factors Contributing to Dietary Quality and Food Security in Low-Income Households with School-Age Children in the United States</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00311-3/fulltext?rss=yes</link>
+      <description>Low-income and food-insecure households are at risk of poor dietary quality and even more severe food insecurity. Especially in childhood, consuming a nutritionally adequate diet is an essential driver of health, growth, and development. Household-level factors can present challenges to support the nutritional needs of low-income and food-insecure household members. The aim of this scoping review is to identify the contributing household factors to dietary quality and food security in US households of school-aged children 5 to 19 years and synthesize the evidence around emergent themes for application to future interventions.</description>
+      <dc:title>A Scoping Review of Household Factors Contributing to Dietary Quality and Food Security in Low-Income Households with School-Age Children in the United States</dc:title>
+      <dc:creator>Heather A. Eicher-Miller, Lisa Graves, Bethany McGowan, Barbara J. Mayfield, Blake A. Connolly, Wanda Stevens, Angela Abbott</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.006</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-12</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-12</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00310-1/fulltext?rss=yes">
+      <title>Dietary recommendations for Ethiopians based on priority diet-related diseases and causes of death in Ethiopia: An umbrella review</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00310-1/fulltext?rss=yes</link>
+      <description>Food-based dietary guidelines (FBDG) need to be evidence-based. As part of the development of Ethiopian FBDG, we conducted an umbrella review to develop dietary recommendations. Protein-energy malnutrition, deficiencies of vitamin A, zinc, calcium, or folate, cardiovascular diseases (CVD), and type 2 diabetes mellitus (T2DM) were selected as priority. Systematic reviews were eligible if they investigated the impact of foods, food groups, diet, or dietary patterns on priority diseases. After a search, 1513 articles were identified in PubMed, SCOPUS, and Google Scholar published from January 2014 to December 2021.</description>
+      <dc:title>Dietary recommendations for Ethiopians based on priority diet-related diseases and causes of death in Ethiopia: An umbrella review</dc:title>
+      <dc:creator>Tesfaye Hailu Bekele, Laura Trijsburg, Inge D. Brouwer, Jeanne H.M. de Vries, Namukolo Covic, Gina Kennedy, Dawit Alemayehu, Edith J.M. Feskens</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.005</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-12</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-12</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00309-5/fulltext?rss=yes">
+      <title>Tree nut and peanut consumption and risk of cardiovascular disease: A systematic review and meta-analysis of randomised controlled trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00309-5/fulltext?rss=yes</link>
+      <description>Cardiovascular disease (CVD) is the leading cause of death globally. Habitual consumption of tree nuts and peanuts is associated with cardioprotective benefits. Food-based dietary guidelines globally recommend nuts as a key component within a healthy diet. This systematic review and meta-analysis was conducted to examine the relationship between tree nut and peanut consumption and risk factors for CVD in randomised controlled trials (RCTs). MEDLINE, PubMed, CINAHL, and Cochrane Central databases were searched up to 26 September 2021.</description>
+      <dc:title>Tree nut and peanut consumption and risk of cardiovascular disease: A systematic review and meta-analysis of randomised controlled trials</dc:title>
+      <dc:creator>Lauren Houston, Yasmine C. Probst, Mamatha Chandra Singh, Elizabeth P. Neale</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.004</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-04</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-04</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00299-5/fulltext?rss=yes">
+      <title>The Relationship of Ready-to-Eat Cereal Intake and Body Weight in Adults: A Systematic Review of Observational Studies and Controlled Trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00299-5/fulltext?rss=yes</link>
+      <description>Results from observational studies indicate that consumption of ready-to-eat cereal (RTEC) is associated with higher diet quality and lower incidence of overweight and obesity in adults compared with other breakfasts or skipping breakfast. However, randomized controlled trials (RCTs) have had inconsistent results regarding effects of RTEC consumption on body weight and composition. This systematic review aimed to evaluate the effect of RTEC intake on body weight outcomes in observational studies and RCTs in adults.</description>
+      <dc:title>The Relationship of Ready-to-Eat Cereal Intake and Body Weight in Adults: A Systematic Review of Observational Studies and Controlled Trials</dc:title>
+      <dc:creator>Lisa M. Sanders, Mary R. Dicklin, Yong Zhu, Kevin C. Maki</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.05.001</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-04</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-04</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00298-3/fulltext?rss=yes">
+      <title>Perspective: Challenges and Strategies to Reduce the Sodium Content of Foods by the Food Service Industry</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00298-3/fulltext?rss=yes</link>
+      <description>Most Americans have dietary sodium intakes that exceed the recommended limits, which is a risk factor for hypertension and CVD. The share of total food expenditures for foods prepared and consumed away from home (FAFH) is ∼55%. These foods are consumed at various venues, including restaurants, workplaces, schools and universities, military installations, and assisted living/long-term care facilities. The food service industry has dealt with and continues to deal with various challenges in its attempt to reduce the sodium content in the foods that they prepare and sell.</description>
+      <dc:title>Perspective: Challenges and Strategies to Reduce the Sodium Content of Foods by the Food Service Industry</dc:title>
+      <dc:creator>Paula R. Trumbo, Katie M. Kirkpatrick, Jennifer Roberts, Pam Smith, Patricia Zecca</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.013</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-05-04</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05-04</prism:publicationDate>
+      <prism:section>Perspective</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00297-1/fulltext?rss=yes">
+      <title>Nutritional Considerations for the Vegan Athlete</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00297-1/fulltext?rss=yes</link>
+      <description>Accepting a continued rise in the prevalence of vegan-type diets in the general population is also likely to occur in athletic populations, it is of importance to assess the potential impact on athletic performance, adaptation, and recovery. Nutritional consideration for the athlete requires optimization of energy, macronutrient, and micronutrient intakes, and potentially the judicious selection of dietary supplements, all specified to meet the individual athlete’s training and performance goals.</description>
+      <dc:title>Nutritional Considerations for the Vegan Athlete</dc:title>
+      <dc:creator>Sam West, Alistair J. Monteyne, Ino van der Heijden, Francis B. Stephens, Benjamin T. Wall</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.012</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-29</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-29</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00296-X/fulltext?rss=yes">
+      <title>Mediterranean diet-based interventions to improve anthropometric and obesity indicators in children and adolescents: a systematic review with meta-analysis of randomized controlled trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00296-X/fulltext?rss=yes</link>
+      <description>To our knowledge, no systematic review with meta-analysis has separately synthesized the effects of Mediterranean diet-based interventions in children and adolescents in relation to effects on anthropometric measures. A better understanding of the effects of Mediterranean diet-based interventions on anthropometric variables could facilitate their implementation in efforts to prevent obesity in the young population. The aim of the present meta-analysis was to evaluate the efficacy of Mediterranean diet-based interventions on anthropometric and obesity indicators among children and adolescents.</description>
+      <dc:title>Mediterranean diet-based interventions to improve anthropometric and obesity indicators in children and adolescents: a systematic review with meta-analysis of randomized controlled trials</dc:title>
+      <dc:creator>José Francisco López-Gil, Antonio García-Hermoso, Mercedes Sotos-Prieto, Iván Cavero-Redondo, Vicente Martínez-Vizcaíno, Stefanos N. Kales</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.011</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-29</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-29</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00295-8/fulltext?rss=yes">
+      <title>Are Lipid-Lowering and Antihypertensive Medications Used as Complements to Heart-Healthy Diets? A Scoping Review</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00295-8/fulltext?rss=yes</link>
+      <description>In cardiovascular disease (CVD) prevention, whether antihypertensive and lipid-lowering medications are used as complements to heart-healthy diets has not been thoroughly assessed. This scoping review aimed to 1) analyze observational studies that assessed the relationship between diet and antihypertensive/lipid-lowering medication use and 2) evaluate whether medication was used as a complement to heart-healthy dietary intakes. We searched MEDLINE, Embase, Web of Science, and CINAHL through 14 January, 2023, for studies that assessed either 1) intraindividual changes in diet associated with lipid-lowering/antihypertensive medication initiation or use or 2) interindividual differences in diet between users and nonusers of these medications.</description>
+      <dc:title>Are Lipid-Lowering and Antihypertensive Medications Used as Complements to Heart-Healthy Diets? A Scoping Review</dc:title>
+      <dc:creator>Clémence Desjardins, Marie Cyrenne-Dussault, Olivier Barbier, Amélie Bélanger, Anne Gangloff, Line Guénette, Jacinthe Leclerc, Jean Lefebvre, Arsène Zongo, Jean-Philippe Drouin-Chartier</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.010</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-28</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-28</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00294-6/fulltext?rss=yes">
+      <title>Effect of Omega-3 Polyunsaturated Fatty Acids on Cardiovascular Outcomes in Patients with Diabetes: A Meta-analysis of Randomized Controlled Trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00294-6/fulltext?rss=yes</link>
+      <description>The current guidelines recommend that people consume 2 or more servings of fat-rich fish per week to obtain enough omega-3 (ω-3) polyunsaturated fatty acids to prevent cardiovascular events. However, the cardiovascular benefits of ω-3 polyunsaturated fatty acids in patients with diabetes are unclear, and related large-scale trials have produced conflicting results. We aimed to perform a meta-analysis of all randomized controlled trials that attempted to assess the effects of ω-3 fatty acid supplementation on cardiovascular outcomes in patients with diabetes.</description>
+      <dc:title>Effect of Omega-3 Polyunsaturated Fatty Acids on Cardiovascular Outcomes in Patients with Diabetes: A Meta-analysis of Randomized Controlled Trials</dc:title>
+      <dc:creator>Linlin Huang, Fanjie Zhang, Ping Xu, Yijie Zhou, Yijun Liu, Hongdie Zhang, Xiaozhen Tan, Xinxu Ge, Yong Xu, Man Guo, Yang Long</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.009</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-28</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-28</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00293-4/fulltext?rss=yes">
+      <title>Perspective: Assuring the Quality of Protein in Infant Formula</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00293-4/fulltext?rss=yes</link>
+      <description>Current regulations require that the assessment of protein quality in infant formula be determined using the protein efficiency ratio (PER) rat bioassay where the growth of rats fed a test protein is compared with the growth of rats fed casein. This review cites authoritative body opinions that the PER is not a preferred method for scoring protein quality, particularly as applied to the infant formula. Methodological recommendations specified by FDA and recent guidance propose to control nonprotein dietary variables in the PER.</description>
+      <dc:title>Perspective: Assuring the Quality of Protein in Infant Formula</dc:title>
+      <dc:creator>John C. Wallingford</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.008</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-25</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-25</prism:publicationDate>
+      <prism:section>Perspective</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00292-2/fulltext?rss=yes">
+      <title>Lifestyle Quality Indices and Female Breast Cancer Risk: A Systematic Review and Meta-Analysis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00292-2/fulltext?rss=yes</link>
+      <description>Breast cancer (BC) poses an important burden of disease, which probably could be reduced by adopting healthy lifestyles like healthy body weight, healthy diet, and physical activity, among others. Many studies have reported that adherence to healthy lifestyles may decrease BC risk. The main objective of this study was to estimate a summary association of studies evaluating a healthy lifestyle index and BC risk. A systematic review and meta-analysis following the Cochrane methodology were carried out.</description>
+      <dc:title>Lifestyle Quality Indices and Female Breast Cancer Risk: A Systematic Review and Meta-Analysis</dc:title>
+      <dc:creator>Brianda I. Armenta-Guirado, Alejandra González-Rocha, Ángel Mérida-Ortega, Lizbeth López-Carrillo, Edgar Denova-Gutiérrez</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.007</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-19</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-19</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00288-0/fulltext?rss=yes">
+      <title>The Relationship between Whole-Grain Intake and Measures of Cognitive Decline, Mood, and Anxiety—A Systematic Review</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00288-0/fulltext?rss=yes</link>
+      <description>Greater intake of whole grains, compared to refined grains, is consistently associated with a reduced risk of cardiovascular disease and type 2 diabetes, both of which are associated with cognitive decline. To better understand the relationship between whole-grain intake, cognition, mood, and anxiety, a systematic review was conducted to synthesize available evidence linking whole grains to these outcomes. Four electronic databases were searched from inception to August 2021 for potentially relevant observational and interventional studies.</description>
+      <dc:title>The Relationship between Whole-Grain Intake and Measures of Cognitive Decline, Mood, and Anxiety—A Systematic Review</dc:title>
+      <dc:creator>Alastair B. Ross, Shruti P. Shertukde, Kara Livingston Staffier, Mei Chung, Paul F. Jacques, Nicola M. McKeown</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.003</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-19</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-19</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00291-0/fulltext?rss=yes">
+      <title>Ultraprocessed Foods and Obesity Risk: A Critical Review of Reported Mechanisms</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00291-0/fulltext?rss=yes</link>
+      <description>Epidemiologic evidence supports a positive association between ultraprocessed food (UPF) consumption and body mass index. This has led to recommendations to avoid UPFs despite very limited evidence establishing causality. Many mechanisms have been proposed, and this review critically aimed to evaluate selected possibilities for specificity, clarity, and consistency related to food choice (i.e., low cost, shelf-life, food packaging, hyperpalatability, and stimulation of hunger/suppression of fullness); food composition (i.e., macronutrients, food texture, added sugar, fat and salt, energy density, low-calorie sweeteners, and additives); and digestive processes (i.e., oral processing/eating rate, gastric emptying time, gastrointestinal transit time, and microbiome).</description>
+      <dc:title>Ultraprocessed Foods and Obesity Risk: A Critical Review of Reported Mechanisms</dc:title>
+      <dc:creator>Vinicius M. Valicente, Ching-Hsuan Peng, Kathryn N. Pacheco, Luotao Lin, Elizabeth I. Kielb, Elina Dawoodani, Afsoun Abdollahi, Richard D. Mattes</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.006</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-17</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-17</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00290-9/fulltext?rss=yes">
+      <title>Gut Microbiota and its Metabolites: Bridge of Dietary Nutrients and Alzheimer’s Disease</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00290-9/fulltext?rss=yes</link>
+      <description>Alzheimer’s disease (AD) is a neurodegenerative disease characterized by progressive cognitive impairment and neuroinflammation. Recent research has revealed the crucial role of gut microbiota and microbial metabolites in modulating AD. However, the mechanisms by which the microbiome and microbial metabolites affect brain function remain poorly understood. Here, we review the literature on changes in the diversity and composition of the gut microbiome in patients with AD and in animal models of AD.</description>
+      <dc:title>Gut Microbiota and its Metabolites: Bridge of Dietary Nutrients and Alzheimer’s Disease</dc:title>
+      <dc:creator>Guangsu Zhu, Jianxin Zhao, Hao Zhang, Gang Wang, Wei Chen</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.005</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-17</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-17</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00289-2/fulltext?rss=yes">
+      <title>Tolerable Upper Intake Level for Individual Amino Acids in Humans: A Narrative Review of Recent Clinical Studies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00289-2/fulltext?rss=yes</link>
+      <description>Individual amino acids are widely popular as supplements because of various perceived and real health benefits. However, currently, there are no recommendations set by national health agencies for tolerable upper intake levels (UL) for amino acids because of a lack of well-conducted human dose-response trials. In the past decade, under the initiative of the International Council on Amino Acid Science, a nonprofit organization, a series of UL human clinical studies were conducted. The goal of this narrative review is to summarize the studies on 6 essential amino acids (leucine, tryptophan, methionine, lysine, histidine, and phenylalanine), 2 nonessential amino acids (arginine and serine), and 2 nonproteinogenic amino acids (ornithine and citrulline) and provide the first set of ULs.</description>
+      <dc:title>Tolerable Upper Intake Level for Individual Amino Acids in Humans: A Narrative Review of Recent Clinical Studies</dc:title>
+      <dc:creator>Rajavel Elango</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.004</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-14</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-14</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00287-9/fulltext?rss=yes">
+      <title>The Effect of Non-Oil Seed Legume Intake on Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00287-9/fulltext?rss=yes</link>
+      <description>Hypertension is a primary modifiable risk factor for CVD, whereby even small reductions in blood pressure (BP) can decrease risk for CVD events. Modification of dietary patterns is an established, nonpharmacologic approach for the prevention and management of hypertension. Legumes are a prevailing component of dietary patterns associated with lower BP in observational research, but there is a need to understand the effects of legume consumption on BP. This study aimed to synthesize evidence from randomized controlled trials (RCTs) for the effects of non-oil seed legume consumption on systolic blood pressure (SBP) and diastolic blood pressure (DBP) (PROSPERO registration: CRD42021237732).</description>
+      <dc:title>The Effect of Non-Oil Seed Legume Intake on Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials</dc:title>
+      <dc:creator>Gynette L. Reyneke, Eleanor J. Beck, Kelly Lambert, Elizabeth P. Neale</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.002</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-07</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-07</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00284-3/fulltext?rss=yes">
+      <title>Exploring the Influence of Gut Microbiome on Energy Metabolism in Humans</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00284-3/fulltext?rss=yes</link>
+      <description>The gut microbiome has a profound influence on host physiology, including energy metabolism, which is the process by which energy from nutrients is transformed into other forms of energy to be used by the body. However, mechanistic evidence for how the microbiome influences energy metabolism is derived from animal models. In this narrative review, we included human studies investigating the relationship between gut microbiome and energy metabolism —i.e., energy expenditure in humans and energy harvest by the gut microbiome.</description>
+      <dc:title>Exploring the Influence of Gut Microbiome on Energy Metabolism in Humans</dc:title>
+      <dc:creator>Julia Montenegro, Anissa M. Armet, Benjamin P. Willing, Edward C. Deehan, Priscila G. Fassini, João F. Mota, Jens Walter, Carla M. Prado</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.015</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-07</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-07</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00283-1/fulltext?rss=yes">
+      <title>The Potential Cardiometabolic Effects of Long-Chain ω-3 Polyunsaturated Fatty Acids: Recent Updates and Controversies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00283-1/fulltext?rss=yes</link>
+      <description>Various health-related effects of long-chain (LC) ω-3 PUFAs, EPA, and DHA have been suggested. LC ω-3 PUFAs reduce TG concentrations and have anti-inflammatory, immunomodulatory, antiplatelet, and vascular protective effects. Controversially, they might help in restoring glucose homeostasis via the gut microbiota. However, previous studies have not shown the clear benefits of LC ω-3 PUFAs for CVDs. REDUCE-IT and STRENGTH—representative randomized controlled trials (RCTs) that examined whether LC ω-3 PUFAs would prevent major adverse cardiovascular (CV) events (MACE)—showed conflicting results with differences in the types, doses, or comparators of LC ω-3 PUFAs and study populations.</description>
+      <dc:title>The Potential Cardiometabolic Effects of Long-Chain ω-3 Polyunsaturated Fatty Acids: Recent Updates and Controversies</dc:title>
+      <dc:creator>Jae Hyun Bae, Hyunjung Lim, Soo Lim</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.014</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-07</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-07</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00286-7/fulltext?rss=yes">
+      <title>Nutrition and Exercise Interventions to Improve Body Composition for Persons with Overweight or Obesity Near Retirement Age: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00286-7/fulltext?rss=yes</link>
+      <description>The retirement phase is an opportunity to integrate healthy (nutrition/exercise) habits into daily life. We conducted this systematic review to assess which nutrition and exercise interventions most effectively improve body composition (fat/muscle mass), body mass index (BMI), and waist circumference (WC) in persons with obesity/overweight near retirement age (ages 55–70 y). We conducted a systematic review and network meta-analysis (NMA) of randomized controlled trials, searching 4 databases from their inception up to July 12, 2022.</description>
+      <dc:title>Nutrition and Exercise Interventions to Improve Body Composition for Persons with Overweight or Obesity Near Retirement Age: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials</dc:title>
+      <dc:creator>Doris Eglseer, Mariella Traxler, Stefan Embacher, Lea Reiter, Josje D. Schoufour, Peter J.M. Weijs, Trudy Voortman, Yves Boirie, Alfonso Cruz-Jentoft, Silvia Bauer, the SO-NUTS consortium</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.04.001</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-04-05</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-05</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>516</prism:startingPage>
+      <prism:endingPage>538</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00281-8/fulltext?rss=yes">
+      <title>WITHDRAWN: Corrigendum to “Machine Learning in Nutrition Research” Advances in Nutrition, Volume 13, Issue 6, November 2022, Pages 2573–2589</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00281-8/fulltext?rss=yes</link>
+      <dc:title>WITHDRAWN: Corrigendum to “Machine Learning in Nutrition Research” Advances in Nutrition, Volume 13, Issue 6, November 2022, Pages 2573–2589</dc:title>
+      <dc:creator>Daniel Kirk, Esther Kok, Michele Tufano, Bedir Tekinerdogan, Edith JM Feskens, Guido Camps</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.012</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-04-05</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-05</prism:publicationDate>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00282-X/fulltext?rss=yes">
+      <title>Almond Consumption and Inflammatory Biomarkers: A Need for Further Investigation</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00282-X/fulltext?rss=yes</link>
+      <description>We are writing in response to the recent article published in your journal, titled “The Effects of Almond Consumption on Inflammatory Biomarkers in Adults: A Systematic Review and Meta-Analysis of Randomized Clinical Trials” [1]. The study aimed to summarize the current literature on whether almonds can affect inflammatory markers, and the authors concluded that almond consumption has a beneficial effect on CRP and IL-6 concentrations in adults but has no notable effects on TNF-α, ICAM-1, or vascular cell adhesion molecule-1 (VCAM-1).</description>
+      <dc:title>Almond Consumption and Inflammatory Biomarkers: A Need for Further Investigation</dc:title>
+      <dc:creator>Pavlo Petakh, Anatolii Lohoida, Aleksandr Kamyshnyi</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.013</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-04-03</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-04-03</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Letter to the Editor</prism:section>
+      <prism:startingPage>583</prism:startingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00285-5/fulltext?rss=yes">
+      <title>Perspective: Nutrition’s Next Chapter – Bioactive Gaps and the Microbiome–Mitochondria Axis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00285-5/fulltext?rss=yes</link>
+      <description>Food has the power to heal. Our bodies transform and are transformed by the elements in food, and the adage that we are what we eat is true. The twentieth century nutrition science focused on decoding the processes and building blocks of this transformation—proteins, fats, carbohydrates, vitamins, and minerals. Twenty-first-century nutrition science is aimed at better understanding the increasingly appreciated bioactive substances within the food matrix that help regulate this transformation—fibers, phytonutrients, bioactive fats, and ferments.</description>
+      <dc:title>Perspective: Nutrition’s Next Chapter – Bioactive Gaps and the Microbiome–Mitochondria Axis</dc:title>
+      <dc:creator>Christopher J. Damman</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.016</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-31</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-31</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>420</prism:startingPage>
+      <prism:endingPage>425</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00280-6/fulltext?rss=yes">
+      <title>Assessing the Interlinkage between Biodiversity and Diet through the Mediterranean Diet Case</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00280-6/fulltext?rss=yes</link>
+      <description>The adoption of healthy and sustainable diets and the transition to sustainable food systems is of principal importance in order to counteract the double burden of climate change and noncommunicable diseases. The Mediterranean diet (MD) has been widely recognized as a biodiversity and healthy nutrition resource to support sustainable development and food security. This study explored biodiversity in terms of food plants species, subspecies, varieties, and races, and also addressed food plant diversity differences between the MD and Western-type consumption patterns.</description>
+      <dc:title>Assessing the Interlinkage between Biodiversity and Diet through the Mediterranean Diet Case</dc:title>
+      <dc:creator>Konstadinos Mattas, Elena Raptou, Ahmed Alayidi, Gizem Yener, George Baourakis</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.011</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-28</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-28</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>570</prism:startingPage>
+      <prism:endingPage>582</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00279-X/fulltext?rss=yes">
+      <title>Perspective: Advancing Dietary Guidance for Cognitive Health—Focus On Solutions to Harmonize Test Selection, Implementation, and Evaluation</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00279-X/fulltext?rss=yes</link>
+      <description>This perspective article is a product of a workshop of experts convened by the Institute for the Advancement of Food and Nutrition Sciences (IAFNS), a nonprofit organization that brings together scientists from government, academia, and industry to catalyze science relevant to food and nutrition for public benefit. An expert group was convened in March 2022 to discuss the current issues surrounding cognitive task selection in nutrition research, with a focus on solutions toward informing dietary guidance for cognitive health, to address a gap identified in the 2020 United States Dietary Guidelines Advisory Committee report, specifically the “considerable variation in testing methods used, [and] inconsistent validity and reliability of cognitive testing methods.</description>
+      <dc:title>Perspective: Advancing Dietary Guidance for Cognitive Health—Focus On Solutions to Harmonize Test Selection, Implementation, and Evaluation</dc:title>
+      <dc:creator>Amy R. Romijn, Marie E. Latulippe, Linda Snetselaar, Peter Willatts, Lysanne Melanson, Richard Gershon, Christy Tangney, Hayley A. Young</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.010</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-28</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-28</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>366</prism:startingPage>
+      <prism:endingPage>378</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00278-8/fulltext?rss=yes">
+      <title>Perspective: Examining Conflicts of Interest for Professional Service within the 2020 Dietary Guidelines Advisory Committee</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00278-8/fulltext?rss=yes</link>
+      <description>Judgments and integrity uphold professionalism. Failure to manage professional conflicts of interest (COIs) may undermine trust in an individual, practitioner, or institution. This perspective article examines standards for nutrition researchers and practitioners to manage COIs for the Dietary Guidelines for Americans (DGA) process. Thereafter, this article analyzes a study published by Mialon et al. that raised concerns about the expert advisory committee selection process and management of COIs for 20 professionals appointed by the Department of Health and Human Services (HHS) and the USDA, who served on a federal government advisory committee to review evidence for the Dietary Guidelines Advisory Committee (DGAC) 2020 scientific report.</description>
+      <dc:title>Perspective: Examining Conflicts of Interest for Professional Service within the 2020 Dietary Guidelines Advisory Committee</dc:title>
+      <dc:creator>Vivica I. Kraak</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.009</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-28</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-28</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>432</prism:startingPage>
+      <prism:endingPage>437</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00277-6/fulltext?rss=yes">
+      <title>Alcohol Consumption and Risk of Fractures: A Systematic Review and Dose–Response Meta-Analysis of Prospective Cohort Studies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00277-6/fulltext?rss=yes</link>
+      <description>Alcohol consumption remains inconsistently correlated with fracture risk, and a dose–response meta-analysis for specific outcomes is lacking. The objective of this study was to quantitatively integrate the data on the relationship between alcohol consumption and fracture risk. Pertinent articles were identified in PubMed, Web of Science, and Embase databases up to 20 February 2022. Combined RRs and 95% CIs were estimated by random- or fixed-effects models. Restricted cubic splines were used to model linear or nonlinear relationships.</description>
+      <dc:title>Alcohol Consumption and Risk of Fractures: A Systematic Review and Dose–Response Meta-Analysis of Prospective Cohort Studies</dc:title>
+      <dc:creator>Yamin Ke, Huifang Hu, Jinli Zhang, Lijun Yuan, Tianze Li, Yifei Feng, Yuying Wu, Xueru Fu, Mengmeng Wang, Yajuan Gao, Weifeng Huo, Yaobing Chen, Wenkai Zhang, Longkang Wang, Xi Li, Jinyuan Pang, Zeqiang Zheng, Fulan Hu, Ming Zhang, Liang Sun, Yang Zhao, Jie Lu, Dongsheng Hu</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.008</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-03-24</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-24</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00276-4/fulltext?rss=yes">
+      <title>Commonalities among Dietary Recommendations from 2010 to 2021 Clinical Practice Guidelines: A Meta-Epidemiological Study from the American College of Lifestyle Medicine</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00276-4/fulltext?rss=yes</link>
+      <description>Clinical practice guidelines (CPGs) provide recommendations to clinicians based on current medical knowledge to guide and reduce variability in clinical care. With advances in nutrition science research, CPGs increasingly include dietary guidance; however, the degree of consistency in dietary recommendations across CPGs has not been investigated. Using a systematic review approach adapted for meta-epidemiologic research, this study compared dietary guidance from current guidelines developed by governments, major medical professional societies, and large health stakeholder associations owing to their often well-defined and standardized processes for guideline development.</description>
+      <dc:title>Commonalities among Dietary Recommendations from 2010 to 2021 Clinical Practice Guidelines: A Meta-Epidemiological Study from the American College of Lifestyle Medicine</dc:title>
+      <dc:creator>Kelly C. Cara, David M. Goldman, Brooke K. Kollman, Stas S. Amato, Martin D. Tull, Micaela C. Karlsen</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.007</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-18</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-18</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>500</prism:startingPage>
+      <prism:endingPage>515</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00275-2/fulltext?rss=yes">
+      <title>The Metabolizable Energy and Lipid Bioaccessibility of Tree Nuts and Peanuts: A Systematic Review with Narrative Synthesis of Human and In Vitro Studies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00275-2/fulltext?rss=yes</link>
+      <description>Nuts are an energy-dense food, yet regular consumption is not associated with weight gain. A proportion of the fats found within nuts remains encapsulated within cell walls and cannot be digested. Metabolizable energy (ME) can be explored by measuring fecal fat excretion in human studies and fat release among in vitro studies. This systematic review with narrative synthesis aimed to examine the ME of tree nuts and peanuts (PROSPERO CRD42021252287). PubMed, MEDLINE, CINAHL, Cochrane, and Embase databases were searched to June 2021.</description>
+      <dc:title>The Metabolizable Energy and Lipid Bioaccessibility of Tree Nuts and Peanuts: A Systematic Review with Narrative Synthesis of Human and In Vitro Studies</dc:title>
+      <dc:creator>Cassandra J. Nikodijevic, Yasmine C. Probst, Sze-Yen Tan, Elizabeth P. Neale</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.006</dc:identifier>
+      <dc:source>Advances in Nutrition (2023)</dc:source>
+      <dc:date>2023-03-17</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-17</prism:publicationDate>
+      <prism:section>Review</prism:section>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00274-0/fulltext?rss=yes">
+      <title>Perspective: Seeing the Forest Through the Trees: The Importance of Food Matrix in Diet Quality and Human Health</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00274-0/fulltext?rss=yes</link>
+      <description>Poor nutrition is linked to morbidity and mortality globally. The nutrition transition toward diets composed of high amounts of ultraprocessed foods that are more refined, calorie-dense, and poor in nutrients is considered a factor in the rise of diet-related metabolic diseases in low- and middle-income countries. Historically, nutrition strategies aimed at mitigating metabolic diseases linked to suboptimal diets have targeted isolated nutrients such as fats; however, they overlook the complexity and importance of whole foods and food matrices, which can lead to unintended consequences such as avoidance of nutrient-dense foods.</description>
+      <dc:title>Perspective: Seeing the Forest Through the Trees: The Importance of Food Matrix in Diet Quality and Human Health</dc:title>
+      <dc:creator>Gregory D. Miller, Jean Ragalie-Carr, Moises Torres-Gonzalez</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.005</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-16</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-16</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>363</prism:startingPage>
+      <prism:endingPage>365</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00270-3/fulltext?rss=yes">
+      <title>Corrigendum to “Machine Learning in Nutrition Research”</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00270-3/fulltext?rss=yes</link>
+      <description>The Publisher regrets that in the above published article, the heading ‘Machine Learning and Traditional Statistical Methods’ was repeated in the section ‘Machine Learning Capabilities’. The second occurrence of the heading, ‘Machine Learning and Traditional Statistical Methods’, should have read, ‘Machine Learning and Traditional Domain-Specific Methods’.</description>
+      <dc:title>Corrigendum to “Machine Learning in Nutrition Research”</dc:title>
+      <dc:creator>Daniel Kirk, Esther Kok, Michele Tufano, Bedir Tekinerdogan, Edith J.M. Feskens, Guido Camps</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.001</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-15</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-15</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:startingPage>584</prism:startingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00273-9/fulltext?rss=yes">
+      <title>Effects of Dairy Intake on Markers of Cardiometabolic Health in Adults: A Systematic Review with Network Meta-Analysis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00273-9/fulltext?rss=yes</link>
+      <description>The health effects of dairy products are still a matter of scientific debate owing to inconsistent findings across trials. Therefore, this systematic review and network meta-analysis (NMA) aimed to compare the effects of different dairy products on markers of cardiometabolic health. A systematic search was conducted in 3 electronic databases [MEDLINE, Cochrane Central Register of Controlled Trials (CENTRAL), and Web of Science; search date: 23 September 2022]. This study included randomized controlled trials (RCTs) with a ≥12-wk intervention comparing any 2 of the eligible interventions [e.g., high dairy (≥3 servings/d or equal amount in grams per day), full-fat dairy, low-fat dairy, naturally fermented milk products, and low dairy/control (0–2 servings/d or usual diet)].</description>
+      <dc:title>Effects of Dairy Intake on Markers of Cardiometabolic Health in Adults: A Systematic Review with Network Meta-Analysis</dc:title>
+      <dc:creator>Eva Kiesswetter, Julia Stadelmaier, Maria Petropoulou, Jakub Morze, Kathrin Grummich, Isabelle Roux, Roberta Lay, Lisa Himmelsbach, Martin Kussmann, Christine Roeger, Malte Rubach, Hans Hauner, Lukas Schwingshackl</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.004</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-11</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-11</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>438</prism:startingPage>
+      <prism:endingPage>450</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00272-7/fulltext?rss=yes">
+      <title>Perspective: Plant-Based Meat Alternatives Can Help Facilitate and Maintain a Lower Animal to Plant Protein Intake Ratio</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00272-7/fulltext?rss=yes</link>
+      <description>The health and environmental advantages of plant-predominant diets will likely lead to increasing numbers of consumers reducing their reliance on animal products. Consequently, health organizations and professionals will need to provide guidance on how best to make this change. In many developed countries, nearly twice as much protein is derived from animal versus plant sources. Potential benefits could result from consuming a higher share of plant protein. Advice to consume equal amounts from each source is more likely to be embraced than advice to eschew all or most animal products.</description>
+      <dc:title>Perspective: Plant-Based Meat Alternatives Can Help Facilitate and Maintain a Lower Animal to Plant Protein Intake Ratio</dc:title>
+      <dc:creator>Mark Messina, Alison M. Duncan, Andrea J. Glenn, Francois Mariotti</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.003</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-09</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-09</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>392</prism:startingPage>
+      <prism:endingPage>405</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00271-5/fulltext?rss=yes">
+      <title>Kidney Stone Prevention</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00271-5/fulltext?rss=yes</link>
+      <description>Kidney stone disease (KSD) (alternatively nephrolithiasis or urolithiasis) is a global health care problem that affects people in almost all of developed and developing countries. Its prevalence has been continuously increasing with a high recurrence rate after stone removal. Although effective therapeutic modalities are available, preventive strategies for both new and recurrent stones are required to reduce physical and financial burdens of KSD. To prevent kidney stone formation, its etiology and risk factors should be first considered.</description>
+      <dc:title>Kidney Stone Prevention</dc:title>
+      <dc:creator>Paleerath Peerapen, Visith Thongboonkerd</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.03.002</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-08</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-08</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>555</prism:startingPage>
+      <prism:endingPage>569</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00265-X/fulltext?rss=yes">
+      <title>Perspective: Is It Time to Revise the Current Nutrient Requirements for Infant Formulas Principally Established in 1980?</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00265-X/fulltext?rss=yes</link>
+      <description>Because of the production of nutrient-deficient infant formulas (IFs), the United States Congress passed regulations on the composition and production of IF, referred to as the Infant Formula Act (IFA), in 1980, which was amended in 1986. More detailed FDA rules have been created since then, specifying the ranges or minimum intakes of nutrients and providing details for the safe production and evaluation of infant formulas. Although generally effective in ensuring safe IF, recent events have made it clear that a re-evaluation of aspects of all the nutrient composition regulations for IF is needed, including consideration of adding requirements related to bioactive nutrients not mentioned in the IFA.</description>
+      <dc:title>Perspective: Is It Time to Revise the Current Nutrient Requirements for Infant Formulas Principally Established in 1980?</dc:title>
+      <dc:creator>Steven A. Abrams, Erynn M. Bergner</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.02.006</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-03-03</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-03-03</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>426</prism:startingPage>
+      <prism:endingPage>431</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00263-6/fulltext?rss=yes">
+      <title>Dietary Factors and Pancreatic Cancer Risk: An Umbrella Review of Meta-Analyses of Prospective Observational Studies</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00263-6/fulltext?rss=yes</link>
+      <description>Dietary factors may be associated with the occurrence of pancreatic cancer. This umbrella review aimed to review and grade the evidence for the associations between dietary factors and pancreatic cancer risk. We searched PubMed, EMBASE, Web of Science, Scopus, Cochrane Database of Systematic Reviews, and CINAHL for eligible literature. We included meta-analyses of randomized controlled trials (RCTs) or prospective observational studies. We used AMSTAR-2, a measurement tool to assess systematic reviews, to evaluate the methodological quality of the included meta-analyses.</description>
+      <dc:title>Dietary Factors and Pancreatic Cancer Risk: An Umbrella Review of Meta-Analyses of Prospective Observational Studies</dc:title>
+      <dc:creator>Xianpeng Qin, Jing Chen, Guiqing Jia, Zhou Yang</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.02.004</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-02-25</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-02-25</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>451</prism:startingPage>
+      <prism:endingPage>464</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00264-8/fulltext?rss=yes">
+      <title>Perspective: A Comprehensive Evaluation of Data Quality in Nutrient Databases</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00264-8/fulltext?rss=yes</link>
+      <description>Nutrient databases are a critical component of nutrition science and the basis of exciting new research in precision nutrition (PN). To identify the most critical components needed for improvement of nutrient databases, food composition data were analyzed for quality, with completeness being the most important measure, and for FAIRness, how well the data conformed with the data science criteria of findable, accessible, interoperable, and reusable (FAIR). Databases were judged complete if they provided data for all 15 nutrition fact panel (NFP) nutrient measures and all 40 National Academies of Sciences, Engineering, and Medicine (NASEM) essential nutrient measures for each food listed.</description>
+      <dc:title>Perspective: A Comprehensive Evaluation of Data Quality in Nutrient Databases</dc:title>
+      <dc:creator>Zhaoping Li, Shavawn Forester, Emily Jennings-Dobbs, David Heber</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.02.005</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-02-24</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-02-24</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>379</prism:startingPage>
+      <prism:endingPage>391</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00217-X/fulltext?rss=yes">
+      <title>Perspective: Is the Response of Human Energy Expenditure to Increased Physical Activity Additive or Constrained?</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00217-X/fulltext?rss=yes</link>
+      <description>The idea that increasing physical activity directly adds to TEE in humans (additive model) has been challenged by the energy constrained hypothesis (constrained model). This model proposes that increased physical activity decreases other components of metabolism to constrain TEE. There is a logical evolutionary argument for trade-offs in metabolism, but, to date, evidence supporting constraint is subject to several limitations, including cross-sectional and correlational studies with potential methodological issues from extreme differences in body size/composition and lifestyle, potential statistical issues such as regression dilution and spurious correlations, and conclusions drawn from deductive inference rather than direct observation of compensation.</description>
+      <dc:title>Perspective: Is the Response of Human Energy Expenditure to Increased Physical Activity Additive or Constrained?</dc:title>
+      <dc:creator>Javier T. Gonzalez, Alan M. Batterham, Greg Atkinson, Dylan Thompson</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.02.003</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-02-22</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-02-22</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Perspective</prism:section>
+      <prism:startingPage>406</prism:startingPage>
+      <prism:endingPage>419</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00135-7/fulltext?rss=yes">
+      <title>Orally Ingested Probiotic, Prebiotic, and Synbiotic Interventions as Countermeasures for Gastrointestinal Tract Infections in Nonelderly Adults: A Systematic Review and Meta-Analysis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00135-7/fulltext?rss=yes</link>
+      <description>Meta-analyses have not examined the prophylactic use of orally ingested probiotics, prebiotics, and synbiotics for preventing gastrointestinal tract infections (GTIs) of various etiologies in adult populations, despite evidence that these gut microbiota-targeted interventions can be effective in treating certain GTIs. This systematic review and meta-analysis aimed to estimate the effects of prophylactic use of orally ingested probiotics, prebiotics, and synbiotics on GTI incidence, duration, and severity in nonelderly, nonhospitalized adults.</description>
+      <dc:title>Orally Ingested Probiotic, Prebiotic, and Synbiotic Interventions as Countermeasures for Gastrointestinal Tract Infections in Nonelderly Adults: A Systematic Review and Meta-Analysis</dc:title>
+      <dc:creator>Heather S. Fagnant, Sandra D. Isidean, Lydia Wilson, Asma S. Bukhari, Jillian T. Allen, Richard T. Agans, Dustin M. Lee, Adrienne Hatch-McChesney, Claire C. Whitney, Elaine Sullo, Chad K. Porter, J. Philip Karl</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.02.002</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-02-21</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-02-21</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>539</prism:startingPage>
+      <prism:endingPage>554</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00005-4/fulltext?rss=yes">
+      <title>Soluble Fiber Supplementation and Serum Lipid Profile: A Systematic Review and Dose-Response Meta-Analysis of Randomized Controlled Trials</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00005-4/fulltext?rss=yes</link>
+      <description>To present a comprehensive synthesis of the effect of soluble fiber supplementation on blood lipid parameters in adults, a systematic search was undertaken in PubMed, Scopus, and ISI Web of Science of relevant articles published before November 2021. Randomized controlled trials (RCTs) evaluating the effects of soluble fibers on blood lipids in adults were included. We estimated the change in blood lipids for each 5 g/d increment in soluble fiber supplementation in each trial and then calculated the mean difference (MD) and 95% CI using a random-effects model.</description>
+      <dc:title>Soluble Fiber Supplementation and Serum Lipid Profile: A Systematic Review and Dose-Response Meta-Analysis of Randomized Controlled Trials</dc:title>
+      <dc:creator>Abed Ghavami, Rahele Ziaei, Sepide Talebi, Hanieh Barghchi, Elyas Nattagh-Eshtivani, Sajjad Moradi, Pegah Rahbarinejad, Hamed Mohammadi, Hatav Ghasemi-Tehrani, Wolfgang Marx, Gholamreza Askari</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.01.005</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-02-01</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-02-01</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>465</prism:startingPage>
+      <prism:endingPage>474</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00001-7/fulltext?rss=yes">
+      <title>Effect of Dietary Intervention, with or without Cointerventions, on Inflammatory Markers in Patients with Nonalcoholic Fatty Liver Disease: A Systematic Review and Meta-Analysis</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00001-7/fulltext?rss=yes</link>
+      <description>Nonalcoholic fatty liver disease (NAFLD) encompasses a spectrum of disease from simple steatosis to nonalcoholic steatohepatitis, with inflammatory cytokines and adipokines identified as drivers of disease progression. Poor dietary patterns are known to promote an inflammatory milieu, although the effects of specific diets remain largely unknown. This review aimed to gather and summarize new and existing evidence on the effect of dietary intervention on inflammatory markers in patients with NAFLD.</description>
+      <dc:title>Effect of Dietary Intervention, with or without Cointerventions, on Inflammatory Markers in Patients with Nonalcoholic Fatty Liver Disease: A Systematic Review and Meta-Analysis</dc:title>
+      <dc:creator>Renate L. Hall, Elena S. George, Audrey C. Tierney, Anjana J. Reddy</dc:creator>
+      <dc:identifier>10.1016/j.advnut.2023.01.001</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-01-31</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-01-31</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:section>Review</prism:section>
+      <prism:startingPage>475</prism:startingPage>
+      <prism:endingPage>499</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00303-4/fulltext?rss=yes">
+      <title>Contents</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00303-4/fulltext?rss=yes</link>
+      <dc:title>Contents</dc:title>
+      <dc:identifier>10.1016/S2161-8313(23)00303-4</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-05</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:startingPage>ii</prism:startingPage>
+      <prism:endingPage>iii</prism:endingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00302-2/fulltext?rss=yes">
+      <title>Editorial board/publication information</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00302-2/fulltext?rss=yes</link>
+      <dc:title>Editorial board/publication information</dc:title>
+      <dc:identifier>10.1016/S2161-8313(23)00302-2</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-05</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:startingPage>i</prism:startingPage>
+   </item>
+   <item rdf:about="https://advances.nutrition.org/article/S2161-8313(23)00301-0/fulltext?rss=yes">
+      <title>Outside Front Cover</title>
+      <link>https://advances.nutrition.org/article/S2161-8313(23)00301-0/fulltext?rss=yes</link>
+      <dc:title>Outside Front Cover</dc:title>
+      <dc:identifier>10.1016/S2161-8313(23)00301-0</dc:identifier>
+      <dc:source>Advances in Nutrition 14, 3 (2023)</dc:source>
+      <dc:date>2023-05</dc:date>
+      <prism:publicationName>Advances in Nutrition</prism:publicationName>
+      <prism:publicationDate>2023-05</prism:publicationDate>
+      <prism:volume>14</prism:volume>
+      <prism:number>3</prism:number>
+      <prism:issueIdentifier>S2161-8313(23)X0004-0</prism:issueIdentifier>
+      <prism:startingPage>OFC</prism:startingPage>
+   </item>
+</rdf:RDF>
