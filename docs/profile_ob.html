@@ -115,50 +115,50 @@
 <h2><span class="header-section-number">1.1</span> 客戶輪廓分析<a href="profile_ob.html#profile_ob" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>Subjects Distribution:</strong> 年齡(Age) &amp; 性別(Gender)分佈</p>
 <!-- PieChart generated in R 4.2.1 by googleVis 0.7.0 package -->
-<!-- Mon Feb 12 15:58:15 2024 -->
+<!-- Thu Mar 21 13:31:09 2024 -->
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataPieChartID71717d89dc6c () {
+function gvisDataPieChartID3afc329bbc6 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
 "<25",
-737
+752
 ],
 [
 "25-29",
-1446
+1487
 ],
 [
 "30-34",
-2769
+3065
 ],
 [
 "35-39",
-2633
+2862
 ],
 [
 "40-44",
-1624
+1812
 ],
 [
 "45-49",
-558
+609
 ],
 [
 "50-54",
-236
+246
 ],
 [
 "55-59",
-133
+127
 ],
 [
 "60-64",
-53
+50
 ],
 [
 "65-69",
@@ -166,7 +166,7 @@ var datajson =
 ],
 [
 ">70",
-10
+11
 ] 
 ];
 data.addColumn('string','age_gp');
@@ -177,17 +177,17 @@ return(data);
 
 
 // jsData 
-function gvisDataPieChartID717165e676d7 () {
+function gvisDataPieChartID3afc28e6c5c9 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
 "female",
-9349
+10153
 ],
 [
 "male",
-860
+878
 ] 
 ];
 data.addColumn('string','gender');
@@ -197,8 +197,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartPieChartID71717d89dc6c() {
-var data = gvisDataPieChartID71717d89dc6c();
+function drawChartPieChartID3afc329bbc6() {
+var data = gvisDataPieChartID3afc329bbc6();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "Age";
@@ -209,7 +209,7 @@ options["width"] = "600";
 options["height"] = "400";
 
     var chart = new google.visualization.PieChart(
-    document.getElementById('PieChartID71717d89dc6c')
+    document.getElementById('PieChartID3afc329bbc6')
     );
     chart.draw(data,options);
     
@@ -219,8 +219,8 @@ options["height"] = "400";
 
 
 // jsDrawChart
-function drawChartPieChartID717165e676d7() {
-var data = gvisDataPieChartID717165e676d7();
+function drawChartPieChartID3afc28e6c5c9() {
+var data = gvisDataPieChartID3afc28e6c5c9();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "Gender";
@@ -232,7 +232,7 @@ options["width"] = "600";
 options["height"] = "400";
 
     var chart = new google.visualization.PieChart(
-    document.getElementById('PieChartID717165e676d7')
+    document.getElementById('PieChartID3afc28e6c5c9')
     );
     chart.draw(data,options);
     
@@ -256,9 +256,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartPieChartID71717d89dc6c);
+callbacks.push(drawChartPieChartID3afc329bbc6);
 })();
-function displayChartPieChartID71717d89dc6c() {
+function displayChartPieChartID3afc329bbc6() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -295,9 +295,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartPieChartID717165e676d7);
+callbacks.push(drawChartPieChartID3afc28e6c5c9);
 })();
-function displayChartPieChartID717165e676d7() {
+function displayChartPieChartID3afc28e6c5c9() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -320,20 +320,20 @@ callbacks.shift()();
 // jsFooter
 </script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID71717d89dc6c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID3afc329bbc6"></script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID717165e676d7"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID3afc28e6c5c9"></script>
 <table cellspacing="5" bgcolor="#AABBCC">
 <tr>
 <td>
 <!-- divChart -->
-<div id="PieChartID71717d89dc6c" style="width: 600; height: 400;">
+<div id="PieChartID3afc329bbc6" style="width: 600; height: 400;">
 
 </div>
 </td>
 <td>
 <!-- divChart -->
-<div id="PieChartID717165e676d7" style="width: 600; height: 400;">
+<div id="PieChartID3afc28e6c5c9" style="width: 600; height: 400;">
 
 </div>
 </td>
@@ -341,30 +341,30 @@ callbacks.shift()();
 </table>
 <p><strong>Subjects Distribution:</strong> 身體質量指數(BMI)分佈</p>
 <!-- PieChart generated in R 4.2.1 by googleVis 0.7.0 package -->
-<!-- Mon Feb 12 15:58:16 2024 -->
+<!-- Thu Mar 21 13:31:09 2024 -->
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataPieChartID71717d845184 () {
+function gvisDataPieChartID3afc46c32419 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
 "underweight",
-3
+2
 ],
 [
 "normal",
-96
+95
 ],
 [
 "overweight",
-214
+228
 ],
 [
 "obesity",
-547
+553
 ] 
 ];
 data.addColumn('string','bmi_gp');
@@ -375,25 +375,25 @@ return(data);
 
 
 // jsData 
-function gvisDataPieChartID71717a03f17c () {
+function gvisDataPieChartID3afc3577099a () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
 "underweight",
-51
+42
 ],
 [
 "normal",
-3764
+4006
 ],
 [
 "overweight",
-2624
+2899
 ],
 [
 "obesity",
-2908
+3205
 ] 
 ];
 data.addColumn('string','bmi_gp');
@@ -403,8 +403,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartPieChartID71717d845184() {
-var data = gvisDataPieChartID71717d845184();
+function drawChartPieChartID3afc46c32419() {
+var data = gvisDataPieChartID3afc46c32419();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "Male";
@@ -415,7 +415,7 @@ options["width"] = "600";
 options["height"] = "400";
 
     var chart = new google.visualization.PieChart(
-    document.getElementById('PieChartID71717d845184')
+    document.getElementById('PieChartID3afc46c32419')
     );
     chart.draw(data,options);
     
@@ -425,8 +425,8 @@ options["height"] = "400";
 
 
 // jsDrawChart
-function drawChartPieChartID71717a03f17c() {
-var data = gvisDataPieChartID71717a03f17c();
+function drawChartPieChartID3afc3577099a() {
+var data = gvisDataPieChartID3afc3577099a();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "Female";
@@ -437,7 +437,7 @@ options["width"] = "600";
 options["height"] = "400";
 
     var chart = new google.visualization.PieChart(
-    document.getElementById('PieChartID71717a03f17c')
+    document.getElementById('PieChartID3afc3577099a')
     );
     chart.draw(data,options);
     
@@ -461,9 +461,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartPieChartID71717d845184);
+callbacks.push(drawChartPieChartID3afc46c32419);
 })();
-function displayChartPieChartID71717d845184() {
+function displayChartPieChartID3afc46c32419() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -500,9 +500,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartPieChartID71717a03f17c);
+callbacks.push(drawChartPieChartID3afc3577099a);
 })();
-function displayChartPieChartID71717a03f17c() {
+function displayChartPieChartID3afc3577099a() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -525,20 +525,20 @@ callbacks.shift()();
 // jsFooter
 </script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID71717d845184"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID3afc46c32419"></script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID71717a03f17c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID3afc3577099a"></script>
 <table cellspacing="5" bgcolor="#AABBCC">
 <tr>
 <td>
 <!-- divChart -->
-<div id="PieChartID71717d845184" style="width: 600; height: 400;">
+<div id="PieChartID3afc46c32419" style="width: 600; height: 400;">
 
 </div>
 </td>
 <td>
 <!-- divChart -->
-<div id="PieChartID71717a03f17c" style="width: 600; height: 400;">
+<div id="PieChartID3afc3577099a" style="width: 600; height: 400;">
 
 </div>
 </td>

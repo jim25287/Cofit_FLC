@@ -1,10 +1,12 @@
 ## 分層分析-1: 減重成效 {#strat_1_ob}
 
+**為方便對應診所8週療程，此頁分析針對所有Program的「前8週」數據進行分析**
+
 **依據減重成效進行分層分析，分成三個組別：**
 
 -   **成效「優異」: (減重\>8%)**
--   **「良好」: (減重介於 3 \~ 8%)**
--   **「低於預期」: (減重\< 3%)**
+-   **「良好」: (減重介於 4 \~ 8%)**
+-   **「低於預期」: (減重\< 4%)**
 
 ```{r  paged.print=TRUE}
 table_01_flc
@@ -12,13 +14,11 @@ table_01_flc
 
 ### 初始狀態(Baseline) {#baseline_ob .unnumbered}
 
-
 ```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
 plot_grid(plotlist = myplots_flc[1:4],
           ncol = 2,
           labels = paste0(LETTERS[1], seq(1,100)))
 ```
-
 
 ### 介入後狀態(Endpoint) {#endpoint_ob .unnumbered}
 
@@ -27,7 +27,6 @@ plot_grid(plotlist = myplots_flc[5:8],
           ncol = 2,
           labels = paste0(LETTERS[3], seq(1,100)))
 ```
-
 
 ### 飲食(Diet) {#diet_ob .unnumbered}
 
@@ -47,7 +46,6 @@ plot_grid(plotlist = myplots_flc[19:22],
           labels = paste0(LETTERS[6], seq(1,100)))
 ```
 
-
 ### ∆成效(%)(Effectiveness) {#delta_p_ob .unnumbered}
 
 ```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
@@ -61,4 +59,3 @@ plot_grid(plotlist = myplots_flc[23:26],
 ```{r, results='asis',  paged.print=TRUE}
 table_02_flc
 ```
-

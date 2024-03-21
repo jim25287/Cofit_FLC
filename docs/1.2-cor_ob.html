@@ -2,117 +2,104 @@
 <html lang="" xml:lang="">
 <head>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)</title>
-  <meta name="description" content="1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)" />
-  <meta name="generator" content="bookdown 0.32 and GitBook 2.6.7" />
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)" />
+<meta property="og:type" content="book" />
 
-  <meta property="og:title" content="1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)" />
-  <meta property="og:type" content="book" />
-  
-  
-  
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)" />
-  
-  
-  
+
 
 <meta name="author" content="By BigData Team" />
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-<link rel="prev" href="profile_ob.html"/>
-<link rel="next" href="strat_1_ob.html"/>
+<meta name="description" content="1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)">
+
+<title>1.2 相關分析(Correlation Analysis) | Cofit - FLC 醫療大數據 (分析報告)</title>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
-
-
-
-
-
-
-
-<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
-<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSC50GVDJ7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-DSC50GVDJ7');
-</script>
 
 
 
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/toc.css" type="text/css" />
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
 </head>
 
 <body>
 
+<div class="container-fluid main-container">
 
 
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Highlight</a></li>
-<li class="chapter" data-level="1" data-path="減重成效---單次療程.html"><a href="減重成效---單次療程.html"><i class="fa fa-check"></i><b>1</b> 減重成效 - (單次療程)</a>
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
 <ul>
-<li class="chapter" data-level="1.1" data-path="profile_ob.html"><a href="profile_ob.html"><i class="fa fa-check"></i><b>1.1</b> 客戶輪廓分析</a></li>
-<li class="chapter" data-level="1.2" data-path="cor_ob.html"><a href="cor_ob.html"><i class="fa fa-check"></i><b>1.2</b> 相關分析(Correlation Analysis)</a></li>
-<li class="chapter" data-level="1.3" data-path="strat_1_ob.html"><a href="strat_1_ob.html"><i class="fa fa-check"></i><b>1.3</b> 分層分析-1: 減重成效</a>
+<li><a href="index.html#index" id="toc-index">Highlight</a></li>
+<li class="has-sub"><a href="1-減重成效---單次療程.html#減重成效---單次療程" id="toc-減重成效---單次療程"><span class="toc-section-number">1</span> 減重成效 - (單次療程)</a>
 <ul>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#baseline_ob"><i class="fa fa-check"></i>初始狀態(Baseline)</a></li>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#endpoint_ob"><i class="fa fa-check"></i>介入後狀態(Endpoint)</a></li>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#diet_ob"><i class="fa fa-check"></i>飲食(Diet)</a></li>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_ob"><i class="fa fa-check"></i>∆成效(Effectiveness)</a></li>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#delta_p_ob"><i class="fa fa-check"></i>∆成效(%)(Effectiveness)</a></li>
-<li class="chapter" data-level="" data-path="strat_1_ob.html"><a href="strat_1_ob.html#Summary_ob"><i class="fa fa-check"></i>Summary</a></li>
+<li><a href="1.1-profile_ob.html#profile_ob" id="toc-profile_ob"><span class="toc-section-number">1.1</span> 客戶輪廓分析</a></li>
+<li><a href="1.2-cor_ob.html#cor_ob" id="toc-cor_ob"><span class="toc-section-number">1.2</span> 相關分析(Correlation Analysis)</a></li>
+<li class="has-sub"><a href="1.3-strat_1_ob.html#strat_1_ob" id="toc-strat_1_ob"><span class="toc-section-number">1.3</span> 分層分析-1: 減重成效</a>
+<ul>
+<li><a href="1.3-strat_1_ob.html#baseline_ob" id="toc-baseline_ob">初始狀態(Baseline)</a></li>
+<li><a href="1.3-strat_1_ob.html#endpoint_ob" id="toc-endpoint_ob">介入後狀態(Endpoint)</a></li>
+<li><a href="1.3-strat_1_ob.html#diet_ob" id="toc-diet_ob">飲食(Diet)</a></li>
+<li><a href="1.3-strat_1_ob.html#delta_ob" id="toc-delta_ob">∆成效(Effectiveness)</a></li>
+<li><a href="1.3-strat_1_ob.html#delta_p_ob" id="toc-delta_p_ob">∆成效(%)(Effectiveness)</a></li>
+<li><a href="1.3-strat_1_ob.html#Summary_ob" id="toc-Summary_ob">Summary</a></li>
 </ul></li>
 </ul></li>
 </ul>
-
-      </nav>
-    </div>
-
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cofit - FLC 醫療大數據 (分析報告)</a>
-          </h1>
-        </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="cor_ob" class="section level2 hasAnchor" number="1.2">
-<h2><span class="header-section-number">1.2</span> 相關分析(Correlation Analysis)<a href="cor_ob.html#cor_ob" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="cor_ob" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> 相關分析(Correlation Analysis)</h2>
 <p><strong>飲食紀錄(diet) x 成效</strong></p>
 <p>減重表現與「飲食紀律」呈現顯著正相關。(飲食紀錄完成度、綠燈率、三大營養素攝取比例、六大類食物攝取量等)。</p>
 <ul>
@@ -127,14 +114,14 @@
 </ul></li>
 </ul></li>
 </ul>
-<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-6-1.svg" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-6-1.png" width="768" style="display: block; margin: auto;" /></p>
 <!-- Table generated in R 4.2.1 by googleVis 0.7.0 package -->
-<!-- Thu Mar 21 13:31:14 2024 -->
+<!-- Thu Mar 21 12:32:30 2024 -->
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID3afc1a1778e2 () {
+function gvisDataTableID33e72ab92d13 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -952,15 +939,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID3afc1a1778e2() {
-var data = gvisDataTableID3afc1a1778e2();
+function drawChartTableID33e72ab92d13() {
+var data = gvisDataTableID33e72ab92d13();
 var options = {};
 options["allowHtml"] = true;
 options["frozenColumns"] = 2;
 options["height"] = 300;
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID3afc1a1778e2')
+    document.getElementById('TableID33e72ab92d13')
     );
     chart.draw(data,options);
     
@@ -984,9 +971,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID3afc1a1778e2);
+callbacks.push(drawChartTableID33e72ab92d13);
 })();
-function displayChartTableID3afc1a1778e2() {
+function displayChartTableID33e72ab92d13() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1009,9 +996,9 @@ callbacks.shift()();
 // jsFooter
 </script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID3afc1a1778e2"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID33e72ab92d13"></script>
 <!-- divChart -->
-<div id="TableID3afc1a1778e2" style="width: 150%; height: 300;">
+<div id="TableID33e72ab92d13" style="width: 150%; height: 300;">
 
 </div>
 <table>
@@ -1025,69 +1012,24 @@ callbacks.shift()();
 </table>
 
 </div>
-<!-- table string rm (string_rm.js) -->
+<p style="text-align: center;">
+<a href="1.1-profile_ob.html"><button class="btn btn-default">Previous</button></a>
+<a href="1.3-strat_1_ob.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
 <script>
-  let tables = document.getElementsByTagName("table");
-for (let i = 0; i < tables.length; i++) {
-    let table = tables[i];
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input rscript\)/g, "");
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_global\)/g, "");
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_test\)/g, "");
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_sua\)/g, "");
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_girc\)/g, "");
-    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_flc\)/g, "");
-}
-</script>
 
-
-
-            </section>
-
-          </div>
-        </div>
-      </div>
-<a href="profile_ob.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="strat_1_ob.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
-  </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": null,
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": null,
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 });
-});
+
 </script>
 
 </body>
-
 </html>
