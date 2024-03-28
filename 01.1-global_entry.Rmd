@@ -1,0 +1,61 @@
+## 分層分析-經典八週: 減重成效 {#strat_1_ob_entry}
+
+**為方便對應診所8週療程，此頁分析針對「經典八週」Program的「前8週」數據進行分析**
+
+**依據減重成效進行分層分析，分成三個組別：**
+
+-   **成效「優異」: (減重\>8%)**
+-   **「良好」: (減重介於 4 \~ 8%)**
+-   **「低於預期」: (減重\< 4%)**
+
+```{r  paged.print=TRUE}
+table_01_flc_entry
+```
+
+### 初始狀態(Baseline) {#baseline_ob_entry .unnumbered}
+
+```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
+plot_grid(plotlist = myplots_flc_entry[1:4],
+          ncol = 2,
+          labels = paste0(LETTERS[1], seq(1,100)))
+```
+
+### 介入後狀態(Endpoint) {#endpoint_ob_entry .unnumbered}
+
+```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
+plot_grid(plotlist = myplots_flc_entry[5:8],
+          ncol = 2,
+          labels = paste0(LETTERS[3], seq(1,100)))
+```
+
+### 飲食(Diet) {#diet_ob_entry .unnumbered}
+
+在分層分析中顯示，減重表現優異者在飲食紀錄完成度、綠燈率、三大營養素攝取比例、六大類食物攝取量等均優於減重表現低於預期者，具統計上顯著差異。
+
+```{r, results='asis', fig.dim = c(5*2,4*(10 %>% divide_by(2) %>% ceiling()))}
+plot_grid(plotlist = myplots_flc_entry[9:18],
+          ncol = 2,
+          labels = paste0(LETTERS[5], seq(1,100)))
+```
+
+### ∆成效(Effectiveness) {#delta_ob_entry .unnumbered}
+
+```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
+plot_grid(plotlist = myplots_flc_entry[19:22],
+          ncol = 2,
+          labels = paste0(LETTERS[6], seq(1,100)))
+```
+
+### ∆成效(%)(Effectiveness) {#delta_p_ob_entry .unnumbered}
+
+```{r, results='asis', fig.dim = c(5*2,4*(4 %>% divide_by(2) %>% ceiling()))}
+plot_grid(plotlist = myplots_flc_entry[23:26],
+          ncol = 2,
+          labels = paste0(LETTERS[8], seq(1,100)))
+```
+
+### Summary {#Summary_ob_entry .unnumbered}
+
+```{r, results='asis',  paged.print=TRUE}
+table_02_flc_entry
+```

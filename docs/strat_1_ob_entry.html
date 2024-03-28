@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.3 分層分析-經典八週: 減重成效 | Cofit - FLC 醫療大數據 (分析報告)</title>
+  <meta name="description" content="1.3 分層分析-經典八週: 減重成效 | Cofit - FLC 醫療大數據 (分析報告)" />
+  <meta name="generator" content="bookdown 0.32 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1.3 分層分析-經典八週: 減重成效 | Cofit - FLC 醫療大數據 (分析報告)" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1.3 分層分析-經典八週: 減重成效 | Cofit - FLC 醫療大數據 (分析報告)" />
+  
+  
+  
+
+<meta name="author" content="By BigData Team" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="cor_ob.html"/>
+<link rel="next" href="strat_1_ob_adv.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSC50GVDJ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DSC50GVDJ7');
+</script>
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Highlight</a></li>
+<li class="chapter" data-level="1" data-path="減重成效---單次療程.html"><a href="減重成效---單次療程.html"><i class="fa fa-check"></i><b>1</b> 減重成效 - (單次療程)</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="profile_ob.html"><a href="profile_ob.html"><i class="fa fa-check"></i><b>1.1</b> 客戶輪廓分析</a></li>
+<li class="chapter" data-level="1.2" data-path="cor_ob.html"><a href="cor_ob.html"><i class="fa fa-check"></i><b>1.2</b> 相關分析(Correlation Analysis)</a></li>
+<li class="chapter" data-level="1.3" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html"><i class="fa fa-check"></i><b>1.3</b> 分層分析-經典八週: 減重成效</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#baseline_ob_entry"><i class="fa fa-check"></i>初始狀態(Baseline)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#endpoint_ob_entry"><i class="fa fa-check"></i>介入後狀態(Endpoint)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#diet_ob_entry"><i class="fa fa-check"></i>飲食(Diet)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#delta_ob_entry"><i class="fa fa-check"></i>∆成效(Effectiveness)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#delta_p_ob_entry"><i class="fa fa-check"></i>∆成效(%)(Effectiveness)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_entry.html"><a href="strat_1_ob_entry.html#Summary_ob_entry"><i class="fa fa-check"></i>Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html"><i class="fa fa-check"></i><b>1.4</b> 分層分析-進階計畫: 減重成效</a>
+<ul>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#baseline_ob_adv"><i class="fa fa-check"></i>初始狀態(Baseline)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#endpoint_ob_adv"><i class="fa fa-check"></i>介入後狀態(Endpoint)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#diet_ob_adv"><i class="fa fa-check"></i>飲食(Diet)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#delta_ob_adv"><i class="fa fa-check"></i>∆成效(Effectiveness)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#delta_p_ob_adv"><i class="fa fa-check"></i>∆成效(%)(Effectiveness)</a></li>
+<li class="chapter" data-level="" data-path="strat_1_ob_adv.html"><a href="strat_1_ob_adv.html#Summary_ob_adv"><i class="fa fa-check"></i>Summary</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Cofit - FLC 醫療大數據 (分析報告)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="strat_1_ob_entry" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> 分層分析-經典八週: 減重成效<a href="strat_1_ob_entry.html#strat_1_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>為方便對應診所8週療程，此頁分析針對「經典八週」Program的「前8週」數據進行分析</strong></p>
+<p><strong>依據減重成效進行分層分析，分成三個組別：</strong></p>
+<ul>
+<li><strong>成效「優異」: (減重&gt;8%)</strong></li>
+<li><strong>「良好」: (減重介於 4 ~ 8%)</strong></li>
+<li><strong>「低於預期」: (減重&lt; 4%)</strong></li>
+</ul>
+<table class="table table-striped table-hover table-condensed" style="font-size: 15px; width: auto !important; margin-left: auto; margin-right: auto;border-bottom: 0;">
+<caption style="font-size: 15pt !important;">
+<span id="tab:unnamed-chunk-1">Table 1.2: </span><b>Table: Population</b>
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:center;">
+Poor
+</th>
+<th style="text-align:center;">
+Medium
+</th>
+<th style="text-align:center;">
+Good
+</th>
+<th style="text-align:center;">
+Sum
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+female
+</td>
+<td style="text-align:center;">
+4571
+</td>
+<td style="text-align:center;">
+3238
+</td>
+<td style="text-align:center;">
+723
+</td>
+<td style="text-align:center;">
+8532
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+male
+</td>
+<td style="text-align:center;">
+374
+</td>
+<td style="text-align:center;">
+288
+</td>
+<td style="text-align:center;">
+87
+</td>
+<td style="text-align:center;">
+749
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sum
+</td>
+<td style="text-align:center;">
+4945
+</td>
+<td style="text-align:center;">
+3526
+</td>
+<td style="text-align:center;">
+810
+</td>
+<td style="text-align:center;">
+9281
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<span style="font-style: italic;font-weight: bold;text-decoration: underline;">Note:</span> <sup></sup> <br> <sup></sup> - Poor: Less than 4% <sup></sup> <br> <sup></sup> - Medium: Between 4~8% <sup></sup> <br> <sup></sup> - Good: More than 8% <sup></sup> <br> <sup></sup> - Program: 經典八週(202109新版)享瘦班, 經典八週, 2023FLC-2個助教,宋醫師專班-FLC班
+</td>
+</tr>
+</tfoot>
+</table>
+<div id="baseline_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>初始狀態(Baseline)<a href="strat_1_ob_entry.html#baseline_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-11-1.svg" width="960" style="display: block; margin: auto;" /></p>
+</div>
+<div id="endpoint_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>介入後狀態(Endpoint)<a href="strat_1_ob_entry.html#endpoint_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-12-1.svg" width="960" style="display: block; margin: auto;" /></p>
+</div>
+<div id="diet_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>飲食(Diet)<a href="strat_1_ob_entry.html#diet_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>在分層分析中顯示，減重表現優異者在飲食紀錄完成度、綠燈率、三大營養素攝取比例、六大類食物攝取量等均優於減重表現低於預期者，具統計上顯著差異。</p>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-13-1.svg" width="960" style="display: block; margin: auto;" /></p>
+</div>
+<div id="delta_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>∆成效(Effectiveness)<a href="strat_1_ob_entry.html#delta_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-14-1.svg" width="960" style="display: block; margin: auto;" /></p>
+</div>
+<div id="delta_p_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>∆成效(%)(Effectiveness)<a href="strat_1_ob_entry.html#delta_p_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="Cofit_annual_report_files/figure-html/unnamed-chunk-15-1.svg" width="960" style="display: block; margin: auto;" /></p>
+</div>
+<div id="Summary_ob_entry" class="section level3 unnumbered hasAnchor">
+<h3>Summary<a href="strat_1_ob_entry.html#Summary_ob_entry" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
+<table class="table table-striped table-hover table-condensed" style="font-size: 15px; width: auto !important; margin-left: auto; margin-right: auto;border-bottom: 0;">
+<caption style="font-size: 15pt !important;">
+<span id="tab:unnamed-chunk-1">Table 1.2: </span><b>Statistics:</b>
+</caption>
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;position: sticky; top:0; background-color: #FFFFFF;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; position: sticky; top:0; background-color: #FFFFFF;" colspan="3">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+Female
+</div>
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; position: sticky; top:0; background-color: #FFFFFF;" colspan="3">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+Male
+</div>
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;position: sticky; top:0; background-color: #FFFFFF;" colspan="1">
+</th>
+</tr>
+<tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Poor
+(n=4571)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Medium
+(n=3238)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Good
+(n=723)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Poor
+(n=374)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Medium
+(n=288)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Good
+(n=87)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+顯著差異
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+體重(前)
+</td>
+<td style="text-align:center;">
+66.1 ± 0.18
+</td>
+<td style="text-align:center;">
+67.31 ± 0.2
+</td>
+<td style="text-align:center;">
+68.22 ± 0.39
+</td>
+<td style="text-align:center;">
+87.53 ± 0.87
+</td>
+<td style="text-align:center;">
+88.38 ± 0.9
+</td>
+<td style="text-align:center;">
+90.44 ± 1.54
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+BMI(前)
+</td>
+<td style="text-align:center;">
+25.56 ± 0.06
+</td>
+<td style="text-align:center;">
+26.12 ± 0.07
+</td>
+<td style="text-align:center;">
+26.41 ± 0.14
+</td>
+<td style="text-align:center;">
+28.97 ± 0.26
+</td>
+<td style="text-align:center;">
+29.17 ± 0.26
+</td>
+<td style="text-align:center;">
+30.06 ± 0.48
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+體脂(前)
+</td>
+<td style="text-align:center;">
+20.88 ± 0.16
+</td>
+<td style="text-align:center;">
+22.55 ± 0.17
+</td>
+<td style="text-align:center;">
+23.73 ± 0.32
+</td>
+<td style="text-align:center;">
+21.47 ± 0.66
+</td>
+<td style="text-align:center;">
+21.9 ± 0.69
+</td>
+<td style="text-align:center;">
+24.72 ± 1.3
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+腰圍(前)
+</td>
+<td style="text-align:center;">
+81.47 ± 0.24
+</td>
+<td style="text-align:center;">
+83.82 ± 0.25
+</td>
+<td style="text-align:center;">
+85.32 ± 0.47
+</td>
+<td style="text-align:center;">
+94.64 ± 0.9
+</td>
+<td style="text-align:center;">
+95.76 ± 1
+</td>
+<td style="text-align:center;">
+95.02 ± 2.3
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+體重(後)
+</td>
+<td style="text-align:center;">
+64.93 ± 0.18
+</td>
+<td style="text-align:center;">
+63.44 ± 0.19
+</td>
+<td style="text-align:center;">
+62.05 ± 0.35
+</td>
+<td style="text-align:center;">
+86.09 ± 0.86
+</td>
+<td style="text-align:center;">
+83.23 ± 0.85
+</td>
+<td style="text-align:center;">
+82.06 ± 1.4
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+BMI(後)
+</td>
+<td style="text-align:center;">
+25.11 ± 0.06
+</td>
+<td style="text-align:center;">
+24.62 ± 0.07
+</td>
+<td style="text-align:center;">
+24.02 ± 0.12
+</td>
+<td style="text-align:center;">
+28.5 ± 0.26
+</td>
+<td style="text-align:center;">
+27.46 ± 0.24
+</td>
+<td style="text-align:center;">
+27.28 ± 0.43
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+體脂(後)
+</td>
+<td style="text-align:center;">
+21.25 ± 0.14
+</td>
+<td style="text-align:center;">
+21.42 ± 0.14
+</td>
+<td style="text-align:center;">
+20.74 ± 0.24
+</td>
+<td style="text-align:center;">
+22.09 ± 0.59
+</td>
+<td style="text-align:center;">
+21.08 ± 0.54
+</td>
+<td style="text-align:center;">
+21.84 ± 0.91
+</td>
+<td style="text-align:center;">
+ns
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+腰圍(後)
+</td>
+<td style="text-align:center;">
+79.97 ± 0.22
+</td>
+<td style="text-align:center;">
+80.29 ± 0.23
+</td>
+<td style="text-align:center;">
+79.69 ± 0.42
+</td>
+<td style="text-align:center;">
+93.42 ± 0.86
+</td>
+<td style="text-align:center;">
+92.19 ± 0.94
+</td>
+<td style="text-align:center;">
+89.39 ± 1.97
+</td>
+<td style="text-align:center;">
+ns
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+年齡
+</td>
+<td style="text-align:center;">
+34.94 ± 0.11
+</td>
+<td style="text-align:center;">
+35.48 ± 0.12
+</td>
+<td style="text-align:center;">
+35.92 ± 0.24
+</td>
+<td style="text-align:center;">
+34.97 ± 0.46
+</td>
+<td style="text-align:center;">
+35.38 ± 0.42
+</td>
+<td style="text-align:center;">
+35.46 ± 0.73
+</td>
+<td style="text-align:center;">
+***
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+飲食紀錄完成率(%)
+</td>
+<td style="text-align:center;">
+62.45 ± 0.42
+</td>
+<td style="text-align:center;">
+85.72 ± 0.29
+</td>
+<td style="text-align:center;">
+91.54 ± 0.43
+</td>
+<td style="text-align:center;">
+60.68 ± 1.5
+</td>
+<td style="text-align:center;">
+83.05 ± 1.06
+</td>
+<td style="text-align:center;">
+89.29 ± 1.58
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+上傳照片張數
+</td>
+<td style="text-align:center;">
+170.16 ± 1.93
+</td>
+<td style="text-align:center;">
+249.8 ± 2.35
+</td>
+<td style="text-align:center;">
+280.39 ± 5.3
+</td>
+<td style="text-align:center;">
+167.43 ± 8.45
+</td>
+<td style="text-align:center;">
+261.22 ± 9.1
+</td>
+<td style="text-align:center;">
+273.9 ± 15.29
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+碳水攝取率(E%)
+</td>
+<td style="text-align:center;">
+31.36 ± 0.14
+</td>
+<td style="text-align:center;">
+26.08 ± 0.15
+</td>
+<td style="text-align:center;">
+22.8 ± 0.26
+</td>
+<td style="text-align:center;">
+32.51 ± 0.48
+</td>
+<td style="text-align:center;">
+26.17 ± 0.53
+</td>
+<td style="text-align:center;">
+23.36 ± 0.93
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+蛋白攝取率(E%)
+</td>
+<td style="text-align:center;">
+23.86 ± 0.05
+</td>
+<td style="text-align:center;">
+25.62 ± 0.05
+</td>
+<td style="text-align:center;">
+26.7 ± 0.09
+</td>
+<td style="text-align:center;">
+23.81 ± 0.18
+</td>
+<td style="text-align:center;">
+26.12 ± 0.19
+</td>
+<td style="text-align:center;">
+26.96 ± 0.28
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+脂肪攝取率(E%)
+</td>
+<td style="text-align:center;">
+44.78 ± 0.1
+</td>
+<td style="text-align:center;">
+48.29 ± 0.12
+</td>
+<td style="text-align:center;">
+50.5 ± 0.21
+</td>
+<td style="text-align:center;">
+43.68 ± 0.34
+</td>
+<td style="text-align:center;">
+47.72 ± 0.4
+</td>
+<td style="text-align:center;">
+49.68 ± 0.74
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+總攝取熱量(日)
+</td>
+<td style="text-align:center;">
+1104.91 ± 2.73
+</td>
+<td style="text-align:center;">
+1127.01 ± 2.92
+</td>
+<td style="text-align:center;">
+1118.66 ± 5.82
+</td>
+<td style="text-align:center;">
+1311.05 ± 14.21
+</td>
+<td style="text-align:center;">
+1339.1 ± 14.81
+</td>
+<td style="text-align:center;">
+1353.28 ± 24.43
+</td>
+<td style="text-align:center;">
+ns
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+綠燈率
+</td>
+<td style="text-align:center;">
+79.59 ± 0.22
+</td>
+<td style="text-align:center;">
+86.6 ± 0.18
+</td>
+<td style="text-align:center;">
+89.93 ± 0.3
+</td>
+<td style="text-align:center;">
+76.48 ± 0.85
+</td>
+<td style="text-align:center;">
+85.97 ± 0.56
+</td>
+<td style="text-align:center;">
+88.46 ± 0.95
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+黃燈率
+</td>
+<td style="text-align:center;">
+16.27 ± 0.18
+</td>
+<td style="text-align:center;">
+10.64 ± 0.14
+</td>
+<td style="text-align:center;">
+7.95 ± 0.24
+</td>
+<td style="text-align:center;">
+18.84 ± 0.7
+</td>
+<td style="text-align:center;">
+11.23 ± 0.45
+</td>
+<td style="text-align:center;">
+9.37 ± 0.78
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+紅燈率
+</td>
+<td style="text-align:center;">
+4.14 ± 0.08
+</td>
+<td style="text-align:center;">
+2.76 ± 0.07
+</td>
+<td style="text-align:center;">
+2.12 ± 0.11
+</td>
+<td style="text-align:center;">
+4.68 ± 0.35
+</td>
+<td style="text-align:center;">
+2.8 ± 0.22
+</td>
+<td style="text-align:center;">
+2.17 ± 0.32
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+∆體重
+</td>
+<td style="text-align:center;">
+1.17 ± 0.01
+</td>
+<td style="text-align:center;">
+3.87 ± 0.02
+</td>
+<td style="text-align:center;">
+6.17 ± 0.04
+</td>
+<td style="text-align:center;">
+1.45 ± 0.06
+</td>
+<td style="text-align:center;">
+5.15 ± 0.08
+</td>
+<td style="text-align:center;">
+8.37 ± 0.16
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+△BMI
+</td>
+<td style="text-align:center;">
+0.45 ± 0.01
+</td>
+<td style="text-align:center;">
+1.5 ± 0.01
+</td>
+<td style="text-align:center;">
+2.39 ± 0.01
+</td>
+<td style="text-align:center;">
+0.48 ± 0.02
+</td>
+<td style="text-align:center;">
+1.71 ± 0.03
+</td>
+<td style="text-align:center;">
+2.78 ± 0.05
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+△體脂(kg)
+</td>
+<td style="text-align:center;">
+-0.37 ± 0.1
+</td>
+<td style="text-align:center;">
+1.13 ± 0.12
+</td>
+<td style="text-align:center;">
+2.99 ± 0.24
+</td>
+<td style="text-align:center;">
+-0.61 ± 0.47
+</td>
+<td style="text-align:center;">
+0.82 ± 0.53
+</td>
+<td style="text-align:center;">
+2.89 ± 0.81
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+∆腰圍
+</td>
+<td style="text-align:center;">
+1.5 ± 0.11
+</td>
+<td style="text-align:center;">
+3.53 ± 0.14
+</td>
+<td style="text-align:center;">
+5.63 ± 0.25
+</td>
+<td style="text-align:center;">
+1.22 ± 0.39
+</td>
+<td style="text-align:center;">
+3.57 ± 0.72
+</td>
+<td style="text-align:center;">
+5.64 ± 1.19
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+∆體重(%)
+</td>
+<td style="text-align:center;">
+1.75 ± 0.02
+</td>
+<td style="text-align:center;">
+5.75 ± 0.02
+</td>
+<td style="text-align:center;">
+9.04 ± 0.03
+</td>
+<td style="text-align:center;">
+1.65 ± 0.07
+</td>
+<td style="text-align:center;">
+5.82 ± 0.06
+</td>
+<td style="text-align:center;">
+9.26 ± 0.08
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+△BMI(％)
+</td>
+<td style="text-align:center;">
+1.75 ± 0.02
+</td>
+<td style="text-align:center;">
+5.74 ± 0.02
+</td>
+<td style="text-align:center;">
+9.04 ± 0.03
+</td>
+<td style="text-align:center;">
+1.64 ± 0.07
+</td>
+<td style="text-align:center;">
+5.86 ± 0.08
+</td>
+<td style="text-align:center;">
+9.24 ± 0.08
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+△體脂(％)
+</td>
+<td style="text-align:center;">
+4.17 ± 0.34
+</td>
+<td style="text-align:center;">
+10.96 ± 0.21
+</td>
+<td style="text-align:center;">
+16.68 ± 0.48
+</td>
+<td style="text-align:center;">
+6.91 ± 0.93
+</td>
+<td style="text-align:center;">
+13.1 ± 0.68
+</td>
+<td style="text-align:center;">
+18.92 ± 0.66
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+∆腰圍(%)
+</td>
+<td style="text-align:center;">
+0.5 ± 0.28
+</td>
+<td style="text-align:center;">
+2.89 ± 0.33
+</td>
+<td style="text-align:center;">
+5.69 ± 0.57
+</td>
+<td style="text-align:center;">
+0.23 ± 0.9
+</td>
+<td style="text-align:center;">
+1.55 ± 1.51
+</td>
+<td style="text-align:center;">
+3.48 ± 2.58
+</td>
+<td style="text-align:center;">
+****
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<span style="font-style: italic;font-weight: bold;text-decoration: underline;">Significance:</span> <sup></sup> <br> Comparison: Good vs. Poor in female population.
+</td>
+</tr>
+</tfoot>
+</table>
+</div>
+
+</div>
+</div>
+<!-- table string rm (string_rm.js) -->
+<script>
+  let tables = document.getElementsByTagName("table");
+for (let i = 0; i < tables.length; i++) {
+    let table = tables[i];
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input rscript\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_global\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_test\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_sua\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_girc\)/g, "");
+    table.innerHTML = table.innerHTML.replace(/\(#tab:input plot rscript_flc\)/g, "");
+}
+</script>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="cor_ob.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="strat_1_ob_adv.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

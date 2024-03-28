@@ -7,17 +7,32 @@
 
 ## 客戶輪廓分析 {#profile_ob}
 
-**Subjects Distribution:** 年齡(Age) & 性別(Gender)分佈
+**經典八週: Subjects Distribution:** 年齡(Age) & 性別(Gender)分佈
 
 ```{r, results='asis'}
-gvisMerge(pie_flc_01, pie_flc_02, horizontal = TRUE,
+gvisMerge(pie_flc_01_entry, pie_flc_02_entry, horizontal = TRUE,
           tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
 ```
 
-**Subjects Distribution:** 身體質量指數(BMI)分佈
+**進階計畫: Subjects Distribution:** 年齡(Age) & 性別(Gender)分佈
 
 ```{r, results='asis'}
-gvisMerge(pie_flc_03, pie_flc_04, horizontal = TRUE,
+gvisMerge(pie_flc_01_adv, pie_flc_02_adv, horizontal = TRUE,
+          tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
+```
+
+**經典八週: Subjects Distribution:** 身體質量指數(BMI)分佈
+
+```{r, results='asis'}
+gvisMerge(pie_flc_03_entry, pie_flc_04_entry, horizontal = TRUE,
+          tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
+
+```
+
+**進階計畫: Subjects Distribution:** 身體質量指數(BMI)分佈
+
+```{r, results='asis'}
+gvisMerge(pie_flc_03_adv, pie_flc_04_adv, horizontal = TRUE,
           tableOptions = "cellspacing=\"5\" bgcolor=\"#AABBCC\"") %>% plot()
 
 ```

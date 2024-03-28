@@ -57,7 +57,6 @@ pacman::p_load(magrittr, knitr, kableExtra, dplyr, readr, readxl, tibble, showte
 font_add(family = "berlin_default", regular = "~/Lincoln/02.Work/04. R&D/02. HIIS_OPP/00.Gitbook/01.CG/CG_report/data/font/STHeiti Light.ttc")
 showtext_auto(enable = TRUE)
 
-source("~/Lincoln/02.Work/04. R&D/02. HIIS_OPP/00.Gitbook/01.CG/CG_report/rscript/03_debug.R")
 source("~/Lincoln/02.Work/04. R&D/02. HIIS_OPP/00.Gitbook/01.CG/CG_report/rscript/04.cofit_flc.R")
 
 
